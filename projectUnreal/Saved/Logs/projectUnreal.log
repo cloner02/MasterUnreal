@@ -1,4 +1,4 @@
-﻿Log file open, 03/28/18 19:00:30
+﻿Log file open, 03/28/18 22:10:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,15 +7,13 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: projectUnreal
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1405449112) SRandInit(-1405449112).
+LogInit: Display: RandInit(-1136246019) SRandInit(-1136246019).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.236522
+LogStats: Stats thread started at 0.216226
 LogD3D11RHI: Aftermath initialized
-LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
@@ -169,6 +167,8 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
@@ -195,296 +195,644 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  /Game/ThirdPersonBP/Maps/MenuPrincipal -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.28-17.00.34:438][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.28-17.00.34:438][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.28-17.00.34:442][  0]LogInit: Computer: MIGUEL-PC
-[2018.03.28-17.00.34:442][  0]LogInit: User: Miguel
-[2018.03.28-17.00.34:442][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.28-17.00.34:442][  0]LogInit: High frequency timer resolution =3.410074 MHz
-[2018.03.28-17.00.34:442][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2018.03.28-17.00.34:442][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.28-17.00.34:442][  0]LogMemory: Process Physical Memory: 306.10 MB used, 306.10 MB peak
-[2018.03.28-17.00.34:442][  0]LogMemory: Process Virtual Memory: 284.56 MB used, 284.56 MB peak
-[2018.03.28-17.00.34:442][  0]LogMemory: Physical Memory: 7567.12 MB used,  4656.43 MB free, 12223.55 MB total
-[2018.03.28-17.00.34:442][  0]LogMemory: Virtual Memory: 780.52 MB used,  4656.43 MB free, 134217728.00 MB total
-[2018.03.28-17.00.34:683][  0]LogInit: Using OS detected language (es-ES).
-[2018.03.28-17.00.34:683][  0]LogInit: Using OS detected locale (es-ES).
-[2018.03.28-17.00.34:687][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2018.03.28-17.00.34:957][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.28-17.00.35:036][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
-[2018.03.28-17.00.35:037][  0]LogD3D11RHI:       2015/0/6111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.28-17.00.35:043][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.28-17.00.35:043][  0]LogD3D11RHI:       0/0/6111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.28-17.00.35:043][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.28-17.00.35:058][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.28-17.00.35:060][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.28-17.00.35:060][  0]LogWindows: EnumDisplayDevices:
-[2018.03.28-17.00.35:060][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
-[2018.03.28-17.00.35:060][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2018.03.28-17.00.35:061][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2018.03.28-17.00.35:061][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2018.03.28-17.00.35:061][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.28-17.00.35:061][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
-[2018.03.28-17.00.35:061][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.28-17.00.35:061][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.28-17.00.35:061][  0]LogRHI: Texture pool is 1411 MB (70% of 2015 MB)
-[2018.03.28-17.00.35:138][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.28-17.00.35:153][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.28-17.00.35:156][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Intermediate/Shaders/WorkingDirectory/3936/).
-[2018.03.28-17.00.35:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Miguel/AppData/Local/Temp/UnrealShaderWorkingDir/5D78617243DBFCB47D7F508AD4D8C7D3/'.
-[2018.03.28-17.00.35:156][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.28-17.00.36:611][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.28-17.00.36:691][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.28-17.00.36:789][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.28-17.00.36:910][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.28-17.00.36:910][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.28-17.00.37:685][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.28-17.00.37:771][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/Miguel/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.28-17.00.37:771][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Miguel/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.28-17.00.37:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.28-17.00.37:771][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.28-17.00.37:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.28-17.00.37:771][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.28-17.00.37:795][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.28-17.00.37:810][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Miguel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.28-17.00.37:825][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.28-17.00.37:826][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.28-17.00.37:827][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.28-17.00.37:827][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.28-17.00.38:466][  0]LogAssetRegistry: FAssetRegistry took 0.0053 seconds to start up
-[2018.03.28-17.00.38:483][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.016940 seconds
-[2018.03.28-17.00.38:635][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.28-17.00.39:290][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.28-17.00.39:385][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.28-17.00.39:385][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.28-17.00.39:385][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.28-17.00.39:385][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.28-17.00.39:385][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.28-17.00.39:436][  0]LogNetVersion: projectUnreal , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 476494951)
-[2018.03.28-17.00.39:790][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2018.03.28-17.00.39:791][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2018.03.28-17.00.39:791][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2018.03.28-17.00.43:187][  0]LogMoviePlayer: Initializing movie player
-[2018.03.28-17.00.43:922][  0]LogCollectionManager: Loaded 0 collections in 0.004427 seconds
-[2018.03.28-17.00.43:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Collections/' took 0.01s
-[2018.03.28-17.00.43:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/Developers/Miguel/Collections/' took 0.01s
-[2018.03.28-17.00.43:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/Collections/' took 0.01s
-[2018.03.28-17.00.43:988][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.28-17.00.43:988][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
-[2018.03.28-17.00.44:275][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.28-17.00.44:345][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.28-17.00.45:151][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2018.03.28-17.00.45:151][  0]SourceControl: El control de código fuente está desactivado
-[2018.03.28-17.00.45:151][  0]SourceControl: El control de código fuente está desactivado
-[2018.03.28-17.00.45:241][  0]SourceControl: El control de código fuente está desactivado
-[2018.03.28-17.00.45:889][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.28-17.00.46:426][  0]LogOcInput: OculusInput pre-init called
-[2018.03.28-17.00.46:669][  0]LogUObjectArray: 38930 objects as part of root set at end of initial load.
-[2018.03.28-17.00.46:669][  0]LogUObjectAllocator: 8563128 out of 0 bytes used by permanent object pool.
-[2018.03.28-17.00.46:669][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.28-17.00.46:824][  0]LogEngine: Initializing Engine...
-[2018.03.28-17.00.46:830][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.28-17.00.47:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.28-17.00.47:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.28-17.00.47:044][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.28-17.00.47:077][  0]LogInit: FAudioDevice initialized.
-[2018.03.28-17.00.47:109][  0]LogInit: Texture streaming: Enabled
-[2018.03.28-17.00.47:136][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.28-17.00.47:699][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2018.03.28-17.00.47:785][  0]LogInit: Display: Game Engine Initialized.
-[2018.03.28-17.00.47:785][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.28-17.00.48:089][  0]LogInit: Display: Starting Game.
-[2018.03.28-17.00.48:089][  0]LogNet: Browse: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Player
-[2018.03.28-17.00.48:089][  0]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Player
-[2018.03.28-17.00.48:137][  0]LogBlueprint: Error: [Compiler Menu_PrincipalWidget] Spawn node  Create Widget  must have a class specified.
-[2018.03.28-17.00.48:140][  0]LogBlueprint: Warning: [Compiler Menu_PrincipalWidget] [0019,39] Compile of Menu_PrincipalWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Widget/Menu_PrincipalWidget.Menu_PrincipalWidget)
-[2018.03.28-17.00.48:329][  0]LogAIModule: Creating AISystem for world MenuPrincipal
-[2018.03.28-17.00.48:483][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.28-17.00.48:485][  0]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-19.00.48
-[2018.03.28-17.00.48:485][  0]LogWorld: Bringing up level for play took: 0.000741
-[2018.03.28-17.00.48:486][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.28-17.00.48:573][  0]LogLoad: Took 0.483395 seconds to LoadMap(/Game/ThirdPersonBP/Maps/MenuPrincipal)
-[2018.03.28-17.00.48:892][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2018.03.28-17.00.48:892][  0]LogLoad: (Engine Initialization) Total time: 20.15 seconds
-[2018.03.28-17.00.48:892][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.28-17.00.48:893][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.03.28-17.00.48:893][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.03.28-17.00.48:923][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.28-17.00.59:852][674]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-17.00.59:852][674]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-17.00.59:854][674]LogEngine: All Windows Closed
-[2018.03.28-17.00.59:854][674]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.03.28-17.01.00:841][675]LogExit: Preparing to exit.
-[2018.03.28-17.01.00:841][675]LogMoviePlayer: Shutting down movie player
-[2018.03.28-17.01.01:393][675]LogExit: Game engine shut down
-[2018.03.28-17.01.01:474][675]LogExit: Object subsystem successfully closed.
-[2018.03.28-17.01.01:488][675]LogD3D11RHI: Shutdown
-[2018.03.28-17.01.01:488][675]LogD3D11RHI: CleanupD3DDevice
-[2018.03.28-17.01.01:490][675]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (314)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module SequenceRecorder (312)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module AutomationController (310)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module AutomationWorker (308)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module AIModule (306)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module GameplayDebugger (305)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module AITestSuite (303)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (300)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (298)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (296)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (294)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module CharacterAI (292)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module SessionServices (290)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (288)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (286)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module MovieScene (284)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module GeometryCache (282)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (281)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (278)
-[2018.03.28-17.01.01:516][675]LogModuleManager: Shutting down and abandoning module PortalServices (276)
-[2018.03.28-17.01.01:517][675]LogModuleManager: Shutting down and abandoning module PortalRpc (274)
-[2018.03.28-17.01.01:517][675]LogModuleManager: Shutting down and abandoning module MessagingRpc (272)
-[2018.03.28-17.01.01:517][675]LogModuleManager: Shutting down and abandoning module ProfilerService (270)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module TaskGraph (268)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module SteamVRController (266)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (264)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module OculusInput (262)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (260)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (258)
-[2018.03.28-17.01.01:553][675]LogModuleManager: Shutting down and abandoning module CableComponent (256)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (254)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module AndroidPermission (252)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module ActorSequence (248)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module MediaCompositing (246)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module HTML5Networking (244)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (242)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module HotReload (241)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (238)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module UObjectPlugin (236)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (234)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (232)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module SourceControl (231)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
-[2018.03.28-17.01.01:554][675]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2018.03.28-17.01.01:655][675]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (208)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module GraphEditor (207)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module ContentBrowser (205)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module CollectionManager (204)
-[2018.03.28-17.01.02:284][675]LogDirectoryWatcher: A directory notification for 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/Collections/' was aborted.
-[2018.03.28-17.01.02:284][675]LogDirectoryWatcher: A directory notification for 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/Developers/Miguel/Collections/' was aborted.
-[2018.03.28-17.01.02:284][675]LogDirectoryWatcher: A directory notification for 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Collections/' was aborted.
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (203)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (198)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module Paper2D (196)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (194)
-[2018.03.28-17.01.02:284][675]LogModuleManager: Shutting down and abandoning module WmfMedia (192)
-[2018.03.28-17.01.02:286][675]LogModuleManager: Shutting down and abandoning module ImgMedia (190)
-[2018.03.28-17.01.02:286][675]LogModuleManager: Shutting down and abandoning module PacketHandler (188)
-[2018.03.28-17.01.02:286][675]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (186)
-[2018.03.28-17.01.02:286][675]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (184)
-[2018.03.28-17.01.02:286][675]LogModuleManager: Shutting down and abandoning module MediaAssets (182)
-[2018.03.28-17.01.02:286][675]LogModuleManager: Shutting down and abandoning module Media (181)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module Overlay (178)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module VREditor (174)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module UMG (160)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module Sequencer (158)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module MessageLog (155)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module Slate (148)
-[2018.03.28-17.01.02:292][675]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module MRMesh (144)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module Messaging (142)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module Networking (134)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module Core (132)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
-[2018.03.28-17.01.02:295][675]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
-[2018.03.28-17.01.02:296][675]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
-[2018.03.28-17.01.02:296][675]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
-[2018.03.28-17.01.02:319][675]LogDerivedDataCache: Shutdown
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TargetPlatform (108)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (107)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (105)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (103)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (101)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (99)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (97)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (95)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (93)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (91)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (89)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module ImageWrapper (88)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (85)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (83)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (81)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (79)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
-[2018.03.28-17.01.02:319][675]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module InputCore (68)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module Settings (66)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module SteamVR (62)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module AugmentedReality (55)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
-[2018.03.28-17.01.02:320][675]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
-[2018.03.28-17.01.02:320][675]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2018.03.28-17.01.02:320][675]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.03.28-17.01.02:346][675]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.03.28-17.01.02:346][675]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.03.28-17.01.02:346][675]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2018.03.28-17.01.02:346][675]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.28-17.01.02:346][675]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.28-17.01.02:356][675]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.28-17.01.02:358][675]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.28-17.01.02:359][675]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.28-17.01.02:378][675]LogExit: Exiting.
-[2018.03.28-17.01.02:380][675]Log file closed, 03/28/18 19:01:02
+[2018.03.28-20.10.48:320][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.28-20.10.48:320][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.28-20.10.48:392][  0]LogInit: Computer: MIGUEL-PC
+[2018.03.28-20.10.48:392][  0]LogInit: User: Miguel
+[2018.03.28-20.10.48:392][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.28-20.10.48:392][  0]LogInit: High frequency timer resolution =3.410074 MHz
+[2018.03.28-20.10.48:393][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.03.28-20.10.48:393][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-20.10.48:393][  0]LogMemory: Process Physical Memory: 274.07 MB used, 274.07 MB peak
+[2018.03.28-20.10.48:393][  0]LogMemory: Process Virtual Memory: 270.01 MB used, 270.01 MB peak
+[2018.03.28-20.10.48:393][  0]LogMemory: Physical Memory: 8197.14 MB used,  4026.42 MB free, 12223.55 MB total
+[2018.03.28-20.10.48:393][  0]LogMemory: Virtual Memory: 666.80 MB used,  4026.42 MB free, 134217728.00 MB total
+[2018.03.28-20.10.48:590][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.28-20.10.48:590][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.28-20.10.49:059][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.28-20.10.49:395][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.28-20.10.49:446][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2018.03.28-20.10.49:446][  0]LogD3D11RHI:       2015/0/6111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.28-20.10.49:448][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.28-20.10.49:448][  0]LogD3D11RHI:       0/0/6111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.28-20.10.49:448][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.28-20.10.49:455][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.28-20.10.49:455][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.28-20.10.49:455][  0]LogWindows: EnumDisplayDevices:
+[2018.03.28-20.10.49:455][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2018.03.28-20.10.49:455][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2018.03.28-20.10.49:455][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2018.03.28-20.10.49:455][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2018.03.28-20.10.49:455][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.28-20.10.49:455][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2018.03.28-20.10.49:455][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.28-20.10.49:455][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.28-20.10.49:455][  0]LogRHI: Texture pool is 1411 MB (70% of 2015 MB)
+[2018.03.28-20.10.49:489][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.28-20.10.49:503][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.28-20.10.49:505][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Intermediate/Shaders/WorkingDirectory/10336/).
+[2018.03.28-20.10.49:505][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Miguel/AppData/Local/Temp/UnrealShaderWorkingDir/3FF019E6488023A5CB82288AFF6C34E2/'.
+[2018.03.28-20.10.49:505][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.28-20.10.50:687][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.28-20.10.50:749][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.28-20.10.50:813][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.28-20.10.50:884][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.28-20.10.50:964][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.28-20.10.51:058][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.28-20.10.51:166][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.28-20.10.51:275][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.28-20.10.51:355][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.28-20.10.51:440][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.28-20.10.51:512][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.28-20.10.51:594][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.28-20.10.51:675][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.28-20.10.51:757][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.28-20.10.51:933][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.28-20.10.51:933][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.28-20.10.52:030][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.28-20.10.52:114][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.28-20.10.52:262][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.28-20.10.52:305][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.28-20.10.52:406][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.28-20.10.52:501][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.28-20.10.52:595][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.28-20.10.52:671][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.28-20.10.52:671][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.28-20.10.53:490][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.28-20.10.53:586][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/Miguel/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.28-20.10.53:586][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Miguel/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.28-20.10.53:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.28-20.10.53:586][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.28-20.10.53:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.28-20.10.53:586][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.28-20.10.53:610][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.28-20.10.53:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Miguel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.28-20.10.53:639][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.28-20.10.53:640][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.28-20.10.53:641][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.28-20.10.53:641][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.28-20.10.54:318][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.28-20.10.55:007][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.28-20.10.55:099][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.28-20.10.55:099][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.28-20.10.55:100][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.28-20.10.55:100][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.28-20.10.55:100][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.28-20.10.55:165][  0]LogNetVersion: projectUnreal , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 476494951)
+[2018.03.28-20.10.55:444][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2018.03.28-20.10.56:133][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.061145 seconds
+[2018.03.28-20.10.56:139][  0]LogUObjectArray: 35877 objects as part of root set at end of initial load.
+[2018.03.28-20.10.56:139][  0]LogUObjectAllocator: 7577640 out of 0 bytes used by permanent object pool.
+[2018.03.28-20.10.56:139][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.28-20.11.00:681][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.28-20.11.00:808][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.28-20.11.02:306][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.28-20.11.02:911][  0]SourceControl: Source control is disabled
+[2018.03.28-20.11.02:912][  0]SourceControl: Source control is disabled
+[2018.03.28-20.11.02:988][  0]SourceControl: Source control is disabled
+[2018.03.28-20.11.03:067][  0]SourceControl: Source control is disabled
+[2018.03.28-20.11.04:167][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.28-20.11.04:573][  0]LogOcInput: OculusInput pre-init called
+[2018.03.28-20.11.04:957][  0]LogEngine: Initializing Engine...
+[2018.03.28-20.11.04:959][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.28-20.11.05:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.28-20.11.05:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.28-20.11.05:341][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.28-20.11.05:351][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.28-20.11.05:394][  0]LogInit: FAudioDevice initialized.
+[2018.03.28-20.11.05:531][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Miguel/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.28-20.11.05:544][  0]LogInit: Texture streaming: Enabled
+[2018.03.28-20.11.05:670][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.28-20.11.05:837][  0]LogInit: Transaction tracking system initialized
+[2018.03.28-20.11.06:265][  0]BlueprintLog: New page: Editor Load
+[2018.03.28-20.11.07:402][  0]LocalizationService: Localization service is disabled
+[2018.03.28-20.11.08:377][  0]LogConsoleResponse: Display: 
+[2018.03.28-20.11.08:608][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.28-20.11.08:608][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.28-20.11.08:609][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.28-20.11.09:184][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/' took 0.02s
+[2018.03.28-20.11.10:440][  0]SourceControl: Source control is disabled
+[2018.03.28-20.11.10:441][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Maps/MenuPrincipal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.28-20.11.10:441][  0]LightingResults: New page: Lighting Build
+[2018.03.28-20.11.10:505][  0]MapCheck: New page: Map Check
+[2018.03.28-20.11.10:505][  0]LightingResults: New page: Lighting Build
+[2018.03.28-20.11.10:567][  0]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.11.10:568][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.28-20.11.10:578][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.28-20.11.10:656][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.423ms to complete.
+[2018.03.28-20.11.10:656][  0]LogFileHelpers: Loading map 'MenuPrincipal' took 0.216
+[2018.03.28-20.11.10:800][  0]LogCollectionManager: Loaded 0 collections in 0.002588 seconds
+[2018.03.28-20.11.10:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Collections/' took 0.01s
+[2018.03.28-20.11.10:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/Developers/Miguel/Collections/' took 0.01s
+[2018.03.28-20.11.10:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/Collections/' took 0.01s
+[2018.03.28-20.11.10:896][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.28-20.11.10:904][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2365 classes and 522 folders.
+[2018.03.28-20.11.10:983][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.28-20.11.11:041][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.28-20.11.11:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.28-20.11.11:116][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.28-20.11.11:118][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.28-20.11.11:125][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.28-20.11.11:227][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.28-20.11.11:496][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.28-20.11.11:496][  0]LogLoad: (Engine Initialization) Total time: 28.34 seconds
+[2018.03.28-20.11.11:496][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.28-20.11.11:496][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.28-20.11.11:496][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.28-20.11.11:853][  0]LogAssetRegistry: Asset discovery search completed in 16.4311 seconds
+[2018.03.28-20.11.11:855][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.28-20.11.11:855][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.03.28-20.11.11:858][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.28-20.11.11:902][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-20.11.12:839][  3]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-20.11.37:681][339]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-20.11.38:049][339]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.28-20.11.40:165][339]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.28-20.11.43:220][588]LogConsoleManager: Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2018.03.28-20.11.44:889][708]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.28-20.12.30:000][668]LogSlate: Took 0.002359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.03.28-20.13.01:729][  3]Cmd: TRANSACTION UNDO
+[2018.03.28-20.13.01:729][  3]LogEditorTransaction: Undo Rename Widget
+[2018.03.28-20.13.43:948][868]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.13.44:658][931]LogSavePackage: Save=51.75ms
+[2018.03.28-20.13.44:658][931]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget8EDB148E498AAD8620D3ED992D91720C.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.13.44:666][931]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.15.33:804][146]BlueprintLog: New page: Compile Menu_PrincipalWidget
+[2018.03.28-20.15.34:462][204]LogSavePackage: Save=40.81ms
+[2018.03.28-20.15.34:462][204]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_PrincipalWidget6F5F6202480B02AF1DD69B872CABA3A1.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_PrincipalWidget.uasset'
+[2018.03.28-20.15.34:470][204]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_PrincipalWidget.uasset
+[2018.03.28-20.16.06:633][317]LogSavePackage: Save=48.88ms
+[2018.03.28-20.16.06:633][317]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_PrincipalWidgetE0B7E93640F0932D8CA326945F81ACB3.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_PrincipalWidget.uasset'
+[2018.03.28-20.16.06:638][317]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_PrincipalWidget.uasset
+[2018.03.28-20.16.07:974][456]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-20.16.08:048][456]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.16.08:048][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-20.16.08:048][456]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.16.08:048][456]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.28-20.16.08:049][456]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.28-20.16.08:049][456]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.28-20.16.08:049][456]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.03.28-20.16.08:049][456]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.03.28-20.16.08:062][456]PIE: New page: PIE session: MenuPrincipal (Mar 29, 2018, 12:16:08 AM)
+[2018.03.28-20.16.08:063][456]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MenuPrincipal
+[2018.03.28-20.16.08:065][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001670s)
+[2018.03.28-20.16.08:066][456]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.16.08:066][456]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2018.03.28-20.16.08:066][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal to /Game/ThirdPersonBP/Maps/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.003261s)
+[2018.03.28-20.16.08:113][456]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.28-20.16.08:137][456]LogInit: FAudioDevice initialized.
+[2018.03.28-20.16.08:185][456]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.16.08:186][456]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.16.08
+[2018.03.28-20.16.08:186][456]LogWorld: Bringing up level for play took: 0.000646
+[2018.03.28-20.16.08:364][456]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.28-20.16.08:368][456]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MenuPrincipal 0.164
+[2018.03.28-20.16.08:369][456]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.16.26:290][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.16.26:331][123]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.16.26:332][123]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.28-20.16.26:333][123]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.28-20.16.26:333][123]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.28-20.16.26:333][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.28-20.16.26:333][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.16.26:426][124]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.03.28-20.16.26:426][124]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.20.56:108][941]LogEditorTransaction: Undo Move Widget
+[2018.03.28-20.20.56:577][963]LogEditorTransaction: Undo Move Widget
+[2018.03.28-20.20.57:074][992]LogEditorTransaction: Undo Move Widget
+[2018.03.28-20.20.57:570][ 25]LogEditorTransaction: Undo Rename Widget
+[2018.03.28-20.20.58:671][109]LogEditorTransaction: Undo Add Widget
+[2018.03.28-20.22.04:767][400]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2018.03.28-20.22.16:811][295]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2018.03.28-20.22.52:509][107]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.22.53:352][147]LogSavePackage: Save=72.70ms
+[2018.03.28-20.22.53:352][147]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget6FF42EF646EBE33B810BD3A1F90D51B7.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.22.53:382][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.24.46:626][857]LogEditorTransaction: Undo Add Node
+[2018.03.28-20.25.55:119][134]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.26.22:999][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MenuPrincipal' took 0.031
+[2018.03.28-20.26.23:004][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget] ([1] browsable assets)...
+[2018.03.28-20.26.23:004][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget]
+[2018.03.28-20.26.23:132][986]LogSavePackage: Save=102.94ms
+[2018.03.28-20.26.23:132][986]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget_Auto16703E8594A6CA969340B18BC7E24F1C7.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget_Auto1.uasset'
+[2018.03.28-20.26.23:154][986]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget_Auto1.uasset
+[2018.03.28-20.26.23:154][986]LogFileHelpers: Auto-saving content packages took 0.154
+[2018.03.28-20.27.08:301][934]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.27.10:028][ 77]LogSavePackage: Save=85.53ms
+[2018.03.28-20.27.10:028][ 77]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget3657364E462A63F2DD5338900600D594.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.27.10:040][ 77]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.28.21:214][885]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.28.22:266][964]LogSavePackage: Save=98.17ms
+[2018.03.28-20.28.22:266][964]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget0C2BD30B4605EE8FA045E385061B7FEC.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.28.22:277][964]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.29.28:729][383]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.29.29:511][435]LogSavePackage: Save=93.54ms
+[2018.03.28-20.29.29:511][435]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidgetBDB8800D487E1CA0E3110D93C94A1D30.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.29.29:524][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.30.08:598][642]LogSavePackage: Save=16.14ms
+[2018.03.28-20.30.08:598][642]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_WidgetBD31436E4F27AB6E93B28CA08EDB999A.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.30.08:610][642]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.32.48:290][432]LogSlate: Took 0.019059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.28-20.34.10:842][786]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.34.11:562][852]LogSavePackage: Save=30.04ms
+[2018.03.28-20.34.11:562][852]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget8B3E6DAD4BED7489C9ACE5B88B10E0CC.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.34.11:575][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.34.15:646][307]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.34.16:223][359]LogSavePackage: Save=23.91ms
+[2018.03.28-20.34.16:223][359]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget6E502B0F44D8CA7B2A6F7AAD9FC5E98D.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.34.16:235][359]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.35.54:968][202]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.35.55:631][255]LogSavePackage: Save=35.00ms
+[2018.03.28-20.35.55:632][255]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_WidgetE52629844A70845B09E1C794F13BF903.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.35.55:646][255]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.37.11:450][556]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.37.15:609][979]LogSavePackage: Save=48.94ms
+[2018.03.28-20.37.15:609][979]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget8E0BA20644753EEE611227AF109C7118.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.37.15:624][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.37.51:099][770]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.37.51:669][816]LogSavePackage: Save=39.30ms
+[2018.03.28-20.37.51:669][816]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_WidgetA8A288E941D0D29E335B19BD2ACA9181.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.37.51:679][816]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.39.12:975][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MenuPrincipal' took 0.046
+[2018.03.28-20.39.12:982][954]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Widget/Partidas_Widget] ([1] browsable assets)...
+[2018.03.28-20.39.12:982][954]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Widget/Partidas_Widget]
+[2018.03.28-20.39.13:059][954]LogSavePackage: Save=54.41ms
+[2018.03.28-20.39.13:059][954]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget_Auto2353322BE4D9948FFAADC349D00F879FA.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Widget/Partidas_Widget_Auto2.uasset'
+[2018.03.28-20.39.13:065][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Widget/Partidas_Widget_Auto2.uasset
+[2018.03.28-20.39.13:065][954]LogFileHelpers: Auto-saving content packages took 0.087
+[2018.03.28-20.39.18:621][560]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.39.19:162][602]LogSavePackage: Save=39.93ms
+[2018.03.28-20.39.19:162][602]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget4706F2844CAD30511AACF2A842A74703.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.39.19:171][602]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.41.24:727][320]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.42.16:259][932]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.42.16:883][974]LogSavePackage: Save=72.49ms
+[2018.03.28-20.42.16:883][974]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget632FF0324551A5D6AC34E48A06047C4F.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.42.16:911][974]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.42.42:702][400]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.42.42:723][400]LogBlueprint: Error: [Compiler Partidas_Widget] The current value of the ' Search Result ' pin is invalid: 'Search Result' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.03.28-20.42.42:771][400]LogBlueprint: Warning: [Compiler Partidas_Widget] [1919.61] Compile of Partidas_Widget failed. 1 Fatal Issue(s) 0 Warning(s) [in 69 ms] (/Game/ThirdPersonBP/Widget/Partidas_Widget.Partidas_Widget)
+[2018.03.28-20.43.01:736][998]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.43.48:871][443]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.43.49:505][490]LogSavePackage: Save=81.64ms
+[2018.03.28-20.43.49:505][490]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget1E6F1A16414455B28ED027B7B579040B.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.43.49:531][490]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.44.17:088][292]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.44.17:615][331]LogSavePackage: Save=56.66ms
+[2018.03.28-20.44.17:615][331]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_Widget46F5A82B475964F6ECCA78944ED6EFE6.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.44.17:625][331]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.45.48:994][713]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.28-20.46.04:304][156]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.46.05:386][231]LogSavePackage: Save=90.14ms
+[2018.03.28-20.46.05:386][231]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidgetD30FEF854439DF3913BBFD9E1F42A612.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.46.05:413][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.46.44:903][793]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.46.45:614][847]LogSavePackage: Save=64.97ms
+[2018.03.28-20.46.45:614][847]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_WidgetA14CFCF94108334FDC1E209A339125A5.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.46.45:626][847]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.47.18:037][522]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.49.13:704][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MenuPrincipal' took 0.045
+[2018.03.28-20.49.13:708][226]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget] ([1] browsable assets)...
+[2018.03.28-20.49.13:708][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget]
+[2018.03.28-20.49.13:822][226]LogSavePackage: Save=94.78ms
+[2018.03.28-20.49.13:822][226]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget_Auto34F204AB349D97EE5C4688F80062D03C2.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget_Auto3.uasset'
+[2018.03.28-20.49.13:826][226]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget_Auto3.uasset
+[2018.03.28-20.49.13:826][226]LogFileHelpers: Auto-saving content packages took 0.121
+[2018.03.28-20.49.56:363][811]BlueprintLog: New page: Compile Menu_UnirsePartidaWidget
+[2018.03.28-20.49.57:242][876]LogSavePackage: Save=106.16ms
+[2018.03.28-20.49.57:242][876]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Menu_UnirsePartidaWidget965D3F5D41411E2E2BEFC3B32FBE211A.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset'
+[2018.03.28-20.49.57:252][876]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Menu_UnirsePartidaWidget.uasset
+[2018.03.28-20.50.41:644][783]BlueprintLog: New page: Compile Partidas_Widget
+[2018.03.28-20.50.42:336][821]LogSavePackage: Save=68.04ms
+[2018.03.28-20.50.42:336][821]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Partidas_WidgetC9671E054B581AA42126199A093E16AC.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset'
+[2018.03.28-20.50.42:346][821]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Widget/Partidas_Widget.uasset
+[2018.03.28-20.51.31:701][597]LogTemp: Repeating last play command: Standalone Game
+[2018.03.28-20.52.12:931][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.52.12:932][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-20.52.12:946][260]PIE: New page: PIE session: MenuPrincipal (Mar 29, 2018, 12:52:12 AM)
+[2018.03.28-20.52.12:947][260]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal
+[2018.03.28-20.52.12:949][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002022s)
+[2018.03.28-20.52.12:950][260]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.52.12:951][260]LogPlayLevel: PIE: World Init took: (0.001862s)
+[2018.03.28-20.52.12:951][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal to /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal.MenuPrincipal (0.004439s)
+[2018.03.28-20.52.12:999][260]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.28-20.52.13:025][260]LogInit: FAudioDevice initialized.
+[2018.03.28-20.52.13:087][260]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.52.13:088][260]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.52.13
+[2018.03.28-20.52.13:089][260]LogWorld: Bringing up level for play took: 0.000876
+[2018.03.28-20.52.13:106][260]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.52.13:106][260]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.03.28-20.52.13:106][260]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.52.13:107][260]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.28-20.52.13:107][260]LogInit: WinSock: I am Miguel-PC (192.168.1.33:0)
+[2018.03.28-20.52.13:107][260]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.52.13:107][260]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.03.28-20.52.13:114][260]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal 0.91
+[2018.03.28-20.52.13:117][260]PIE: New page: PIE session: MenuPrincipal (Mar 29, 2018, 12:52:13 AM)
+[2018.03.28-20.52.13:169][260]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/MenuPrincipal
+[2018.03.28-20.52.13:172][260]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.52.13:172][260]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.03.28-20.52.13:172][260]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.28-20.52.13:172][260]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.28-20.52.13:173][260]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.52.13:225][260]LogNet: Game client on port 17777, rate 10000
+[2018.03.28-20.52.13:237][260]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/MenuPrincipal 1.032
+[2018.03.28-20.52.13:246][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.52.13:247][260]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59416
+[2018.03.28-20.52.13:273][260]LogHandshake: SendConnectChallenge. Timestamp: 0.010185, Cookie: 235207166040031160176163112235121100064148195146064002025045
+[2018.03.28-20.52.13:314][260]LogHandshake: SendChallengeResponse. Timestamp: 0.010185, Cookie: 235207166040031160176163112235121100064148195146064002025045
+[2018.03.28-20.52.13:347][260]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.28-20.52.13:468][261]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59416
+[2018.03.28-20.52.13:469][261]LogHandshake: SendChallengeAck. InCookie: 235207166040031160176163112235121100064148195146064002025045
+[2018.03.28-20.52.13:469][261]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59416
+[2018.03.28-20.52.13:469][261]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.52.13:469][261]LogNet: NotifyAcceptedConnection: Name: MenuPrincipal, TimeStamp: 03/28/18 22:52:13, [UNetConnection] RemoteAddr: 127.0.0.1:59416, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.52.13:495][261]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59416, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.52.13:496][261]LogNetVersion: projectUnreal 1.0.0.0, NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 766569744)
+[2018.03.28-20.52.13:496][261]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2018.03.28-20.52.13:597][262]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal.MenuPrincipal: Accepted
+[2018.03.28-20.52.13:598][262]LogNet: Remote platform little endian=1
+[2018.03.28-20.52.13:598][262]LogNet: This platform little endian=1
+[2018.03.28-20.52.13:634][263]LogNet: Login request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-15E1F5754EC8674959C2BB968ABBDD23 userId: Miguel-PC-15E1F5754EC8674959C2BB968ABBDD23
+[2018.03.28-20.52.13:644][263]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.03.28-20.52.13:644][263]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.03.28-20.52.13:693][263]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.52.13:693][263]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.52.13:695][263]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.52.13
+[2018.03.28-20.52.13:695][263]LogWorld: Bringing up level for play took: 0.000730
+[2018.03.28-20.52.13:695][263]LogLoad: Took 0.050924 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal)
+[2018.03.28-20.52.13:716][264]LogNet: Client netspeed is 10000
+[2018.03.28-20.52.13:717][264]LogNet: Join request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-15E1F5754EC8674959C2BB968ABBDD23?SplitscreenCount=1
+[2018.03.28-20.52.13:717][264]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.28-20.52.13:955][264]LogNet: Join succeeded: Miguel-PC-15E1F5754E
+[2018.03.28-20.52.14:081][266]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.28-20.52.14:081][266]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.28-20.52.34:688][725]LogBlueprintUserMessages: [GIPrincipal_C_1] Server: Exito Crear Session
+[2018.03.28-20.52.34:691][725]LogNet: Browse: /Game/ThirdPersonBP/Maps/EscenarioMain?listen
+[2018.03.28-20.52.34:692][725]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/EscenarioMain?listen
+[2018.03.28-20.52.34:692][725]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2018.03.28-20.52.34:692][725]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2018.03.28-20.52.34:692][725]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:59416, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2018.03.28-20.52.34:692][725]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59416, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2018.03.28-20.52.34
+[2018.03.28-20.52.34:707][725]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59416, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2018.03.28-20.52.34:707][725]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2018.03.28-20.52.35:694][725]LogAIModule: Creating AISystem for world EscenarioMain
+[2018.03.28-20.52.35:695][725]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.52.35:695][725]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.52.35:695][725]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.03.28-20.52.35:695][725]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.52.35:696][725]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.28-20.52.35:696][725]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.52.35:697][725]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2018.03.28-20.52.35:701][725]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain.EscenarioMain up for play (max tick rate 0) at 2018.03.28-22.52.35
+[2018.03.28-20.52.35:702][725]LogWorld: Bringing up level for play took: 0.004528
+[2018.03.28-20.52.35:703][725]LogLoad: Took 1.011737 seconds to LoadMap(/Game/ThirdPersonBP/Maps/EscenarioMain)
+[2018.03.28-20.52.35:704][725]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2018.03.28-20.52.35:704][725]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2018.03.28-20.52.35:716][725]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2018.03.28-20.52.35:731][725]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2018.03.28-20.52.35
+[2018.03.28-20.52.35:731][725]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2018.03.28-20.52.35:732][725]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2018.03.28-20.52.35:732][725]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2018.03.28-20.52.35:732][725]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2018.03.28-20.52.35:775][726]LogNet: Browse: /Game/ThirdPersonBP/Maps/MenuPrincipal?closed
+[2018.03.28-20.52.35:775][726]LogNet: Failed; returning to Entry
+[2018.03.28-20.52.35:775][726]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MenuPrincipal?closed
+[2018.03.28-20.52.35:775][726]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2018.03.28-20.52.35:775][726]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2018.03.28-20.52.35:775][726]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2018.03.28-20.52.35:816][726]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal
+[2018.03.28-20.52.35:818][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001537s)
+[2018.03.28-20.52.35:818][726]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.52.35:819][726]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2018.03.28-20.52.35:819][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal to /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal.MenuPrincipal (0.002814s)
+[2018.03.28-20.52.35:819][726]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.52.35:820][726]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.52.35
+[2018.03.28-20.52.35:820][726]LogWorld: Bringing up level for play took: 0.000620
+[2018.03.28-20.52.35:821][726]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-20.52.35:824][726]LogLoad: Took 0.049211 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal)
+[2018.03.28-20.53.20:705][447]LogOnline: Warning: OSS: Ignoring game search request while one is pending
+[2018.03.28-20.53.21:210][482]LogOnline: Warning: OSS: Ignoring game search request while one is pending
+[2018.03.28-20.53.21:404][495]LogOnline: Warning: OSS: Ignoring game search request while one is pending
+[2018.03.28-20.53.21:582][507]LogOnline: Warning: OSS: Ignoring game search request while one is pending
+[2018.03.28-20.53.56:962][623]LogBlueprintUserMessages: [Partidas_Widget_C_40] Uniendose partida
+[2018.03.28-20.53.56:964][623]LogNet: Browse: 192.168.1.33//Game/ThirdPersonBP/Maps/MenuPrincipal
+[2018.03.28-20.53.56:964][623]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.53.56:965][623]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.03.28-20.53.56:965][623]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.28-20.53.56:965][623]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.28-20.53.56:965][623]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.53.56:966][623]LogNet: Game client on port 7777, rate 10000
+[2018.03.28-20.53.56:982][624]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.33:51231
+[2018.03.28-20.53.56:982][624]LogHandshake: SendConnectChallenge. Timestamp: 82.309608, Cookie: 068254227092173235134019157139184185101017229240181171074186
+[2018.03.28-20.53.56:983][624]LogHandshake: SendChallengeResponse. Timestamp: 82.309608, Cookie: 068254227092173235134019157139184185101017229240181171074186
+[2018.03.28-20.53.56:999][625]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.33:51231
+[2018.03.28-20.53.56:999][625]LogHandshake: SendChallengeAck. InCookie: 068254227092173235134019157139184185101017229240181171074186
+[2018.03.28-20.53.56:999][625]LogNet: Server accepting post-challenge connection from: 192.168.1.33:51231
+[2018.03.28-20.53.56:999][625]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.53.56:999][625]LogNet: NotifyAcceptedConnection: Name: EscenarioMain, TimeStamp: 03/28/18 22:53:56, [UNetConnection] RemoteAddr: 192.168.1.33:51231, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.53.56:999][625]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.33:51231, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.53.57:000][625]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2018.03.28-20.53.57:015][626]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain.EscenarioMain: Accepted
+[2018.03.28-20.53.57:015][626]LogNet: Remote platform little endian=1
+[2018.03.28-20.53.57:015][626]LogNet: This platform little endian=1
+[2018.03.28-20.53.57:028][627]LogNet: Login request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-15E1F5754EC8674959C2BB968ABBDD23 userId: Miguel-PC-15E1F5754EC8674959C2BB968ABBDD23
+[2018.03.28-20.53.57:029][627]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.03.28-20.53.57:030][627]LogLoad: LoadMap: 192.168.1.33//Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.03.28-20.53.57:292][627]LogAIModule: Creating AISystem for world EscenarioMain
+[2018.03.28-20.53.57:293][627]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.53.57:301][627]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_EscenarioMain.EscenarioMain up for play (max tick rate 0) at 2018.03.28-22.53.57
+[2018.03.28-20.53.57:302][627]LogWorld: Bringing up level for play took: 0.007107
+[2018.03.28-20.53.57:302][627]LogLoad: Took 0.272547 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain)
+[2018.03.28-20.53.57:338][628]LogNet: Client netspeed is 10000
+[2018.03.28-20.53.57:338][628]LogNet: Join request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-15E1F5754EC8674959C2BB968ABBDD23?SplitscreenCount=1
+[2018.03.28-20.53.57:341][628]LogNet: Join succeeded: Miguel-PC-15E1F5754E
+[2018.03.28-20.55.34:260][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.55.34:332][102]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.55.34:332][102]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.28-20.55.34:360][102]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.28-20.55.34:360][102]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.28-20.55.34:404][102]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.55.34:404][102]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.28-20.55.34:406][102]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.28-20.55.34:406][102]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.28-20.55.34:406][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.28-20.55.34:407][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.55.34:472][102]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:51231, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2018.03.28-20.55.34:472][102]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.33:51231, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2018.03.28-20.55.34
+[2018.03.28-20.55.34:472][102]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:51231, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2018.03.28-20.55.34:472][102]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2018.03.28-20.55.34:472][102]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2018.03.28-20.55.34
+[2018.03.28-20.55.34:473][102]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2018.03.28-20.55.34:483][102]LogExit: GameNetDriver None shut down
+[2018.03.28-20.55.34:483][102]LogExit: GameNetDriver None shut down
+[2018.03.28-20.55.34:594][103]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.03.28-20.55.34:594][103]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.55.34:594][103]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.03.28-20.55.34:594][103]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.57.16:054][831]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.28-20.57.16:103][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.57.16:103][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-20.57.16:106][831]PIE: New page: PIE session: MenuPrincipal (Mar 29, 2018, 12:57:16 AM)
+[2018.03.28-20.57.16:110][831]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal
+[2018.03.28-20.57.16:112][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001563s)
+[2018.03.28-20.57.16:113][831]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.57.16:113][831]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2018.03.28-20.57.16:114][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal to /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal.MenuPrincipal (0.003233s)
+[2018.03.28-20.57.16:164][831]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.28-20.57.16:189][831]LogInit: FAudioDevice initialized.
+[2018.03.28-20.57.16:244][831]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.57.16:246][831]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.57.16
+[2018.03.28-20.57.16:246][831]LogWorld: Bringing up level for play took: 0.000860
+[2018.03.28-20.57.16:265][831]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.16:265][831]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.03.28-20.57.16:266][831]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.16:266][831]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.28-20.57.16:267][831]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.57.16:268][831]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.03.28-20.57.16:288][831]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal 0.083
+[2018.03.28-20.57.16:294][831]PIE: New page: PIE session: MenuPrincipal (Mar 29, 2018, 12:57:16 AM)
+[2018.03.28-20.57.16:367][831]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/MenuPrincipal
+[2018.03.28-20.57.16:368][831]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.16:368][831]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.03.28-20.57.16:368][831]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.28-20.57.16:368][831]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.28-20.57.16:369][831]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.57.16:369][831]LogNet: Game client on port 17777, rate 10000
+[2018.03.28-20.57.16:375][831]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/MenuPrincipal 0.17
+[2018.03.28-20.57.16:388][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.57.16:390][831]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52623
+[2018.03.28-20.57.16:390][831]LogHandshake: SendConnectChallenge. Timestamp: 0.008524, Cookie: 196209222072118254144240196244141251214131139139246176175044
+[2018.03.28-20.57.16:391][831]LogHandshake: SendChallengeResponse. Timestamp: 0.008524, Cookie: 196209222072118254144240196244141251214131139139246176175044
+[2018.03.28-20.57.16:495][832]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52623
+[2018.03.28-20.57.16:495][832]LogHandshake: SendChallengeAck. InCookie: 196209222072118254144240196244141251214131139139246176175044
+[2018.03.28-20.57.16:495][832]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52623
+[2018.03.28-20.57.16:495][832]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.57.16:495][832]LogNet: NotifyAcceptedConnection: Name: MenuPrincipal, TimeStamp: 03/28/18 22:57:16, [UNetConnection] RemoteAddr: 127.0.0.1:52623, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.57.16:495][832]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52623, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.57.16:496][832]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2018.03.28-20.57.16:519][833]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal.MenuPrincipal: Accepted
+[2018.03.28-20.57.16:519][833]LogNet: Remote platform little endian=1
+[2018.03.28-20.57.16:519][833]LogNet: This platform little endian=1
+[2018.03.28-20.57.16:546][834]LogNet: Login request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-7E413113475B01782C7AFE8C7DF12FC7 userId: Miguel-PC-7E413113475B01782C7AFE8C7DF12FC7
+[2018.03.28-20.57.16:547][834]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.03.28-20.57.16:547][834]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.03.28-20.57.16:587][834]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.57.16:587][834]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.16:589][834]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.57.16
+[2018.03.28-20.57.16:589][834]LogWorld: Bringing up level for play took: 0.000601
+[2018.03.28-20.57.16:590][834]LogLoad: Took 0.042079 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_MenuPrincipal)
+[2018.03.28-20.57.16:614][835]LogNet: Client netspeed is 10000
+[2018.03.28-20.57.16:614][835]LogNet: Join request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-7E413113475B01782C7AFE8C7DF12FC7?SplitscreenCount=1
+[2018.03.28-20.57.16:615][835]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.28-20.57.16:617][835]LogNet: Join succeeded: Miguel-PC-7E41311347
+[2018.03.28-20.57.16:681][838]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.28-20.57.16:699][839]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.03.28-20.57.19:230][  1]LogBlueprintUserMessages: [GIPrincipal_C_3] Server: Exito Crear Session
+[2018.03.28-20.57.19:234][  1]LogNet: Browse: /Game/ThirdPersonBP/Maps/EscenarioMain?listen
+[2018.03.28-20.57.19:234][  1]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/EscenarioMain?listen
+[2018.03.28-20.57.19:234][  1]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2018.03.28-20.57.19:234][  1]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2018.03.28-20.57.19:235][  1]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:52623, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2018.03.28-20.57.19:235][  1]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52623, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2018.03.28-20.57.19
+[2018.03.28-20.57.19:235][  1]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52623, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2018.03.28-20.57.19:235][  1]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2018.03.28-20.57.19:359][  1]LogAIModule: Creating AISystem for world EscenarioMain
+[2018.03.28-20.57.19:359][  1]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.57.19:359][  1]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.19:359][  1]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.03.28-20.57.19:360][  1]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.19:360][  1]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.03.28-20.57.19:360][  1]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.57.19:361][  1]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2018.03.28-20.57.19:365][  1]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain.EscenarioMain up for play (max tick rate 0) at 2018.03.28-22.57.19
+[2018.03.28-20.57.19:365][  1]LogWorld: Bringing up level for play took: 0.003900
+[2018.03.28-20.57.19:366][  1]LogLoad: Took 0.132525 seconds to LoadMap(/Game/ThirdPersonBP/Maps/EscenarioMain)
+[2018.03.28-20.57.19:368][  1]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2018.03.28-20.57.19:368][  1]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2018.03.28-20.57.19:368][  1]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2018.03.28-20.57.19:368][  1]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2018.03.28-20.57.19
+[2018.03.28-20.57.19:368][  1]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2018.03.28-20.57.19:368][  1]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2018.03.28-20.57.19:368][  1]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2018.03.28-20.57.19:368][  1]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2018.03.28-20.57.19:406][  2]LogNet: Browse: /Game/ThirdPersonBP/Maps/MenuPrincipal?closed
+[2018.03.28-20.57.19:406][  2]LogNet: Failed; returning to Entry
+[2018.03.28-20.57.19:409][  2]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MenuPrincipal?closed
+[2018.03.28-20.57.19:410][  2]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2018.03.28-20.57.19:410][  2]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2018.03.28-20.57.19:410][  2]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2018.03.28-20.57.19:449][  2]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal
+[2018.03.28-20.57.19:450][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2018.03.28-20.57.19:451][  2]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.03.28-20.57.19:451][  2]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2018.03.28-20.57.19:451][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal to /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal.MenuPrincipal (0.002702s)
+[2018.03.28-20.57.19:451][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.28-20.57.19:453][  2]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2018.03.28-22.57.19
+[2018.03.28-20.57.19:453][  2]LogWorld: Bringing up level for play took: 0.000859
+[2018.03.28-20.57.19:454][  2]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-20.57.19:458][  2]LogLoad: Took 0.048994 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_2_MenuPrincipal)
+[2018.03.28-20.57.38:269][242]LogBlueprintUserMessages: [Partidas_Widget_C_50] Uniendose partida
+[2018.03.28-20.57.38:272][242]LogNet: Browse: 192.168.1.33//Game/ThirdPersonBP/Maps/MenuPrincipal
+[2018.03.28-20.57.38:272][242]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.38:272][242]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.03.28-20.57.38:272][242]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.03.28-20.57.38:272][242]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.03.28-20.57.38:273][242]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.57.38:273][242]LogNet: Game client on port 7777, rate 10000
+[2018.03.28-20.57.38:289][243]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.33:52627
+[2018.03.28-20.57.38:289][243]LogHandshake: SendConnectChallenge. Timestamp: 19.073195, Cookie: 055041063161088218183118252050156124024177050038211017215192
+[2018.03.28-20.57.38:290][243]LogHandshake: SendChallengeResponse. Timestamp: 19.073195, Cookie: 055041063161088218183118252050156124024177050038211017215192
+[2018.03.28-20.57.38:306][244]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.33:52627
+[2018.03.28-20.57.38:306][244]LogHandshake: SendChallengeAck. InCookie: 055041063161088218183118252050156124024177050038211017215192
+[2018.03.28-20.57.38:306][244]LogNet: Server accepting post-challenge connection from: 192.168.1.33:52627
+[2018.03.28-20.57.38:306][244]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.03.28-20.57.38:306][244]LogNet: NotifyAcceptedConnection: Name: EscenarioMain, TimeStamp: 03/28/18 22:57:38, [UNetConnection] RemoteAddr: 192.168.1.33:52627, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.57.38:306][244]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.33:52627, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2018.03.28-20.57.38:307][244]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2018.03.28-20.57.38:322][245]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain.EscenarioMain: Accepted
+[2018.03.28-20.57.38:323][245]LogNet: Remote platform little endian=1
+[2018.03.28-20.57.38:323][245]LogNet: This platform little endian=1
+[2018.03.28-20.57.38:339][246]LogNet: Login request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-7E413113475B01782C7AFE8C7DF12FC7 userId: Miguel-PC-7E413113475B01782C7AFE8C7DF12FC7
+[2018.03.28-20.57.38:341][246]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.03.28-20.57.38:341][246]LogLoad: LoadMap: 192.168.1.33//Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.03.28-20.57.38:605][246]LogAIModule: Creating AISystem for world EscenarioMain
+[2018.03.28-20.57.38:606][246]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.03.28-20.57.38:612][246]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_EscenarioMain.EscenarioMain up for play (max tick rate 0) at 2018.03.28-22.57.38
+[2018.03.28-20.57.38:612][246]LogWorld: Bringing up level for play took: 0.005066
+[2018.03.28-20.57.38:613][246]LogLoad: Took 0.271547 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_EscenarioMain)
+[2018.03.28-20.57.38:647][247]LogNet: Client netspeed is 10000
+[2018.03.28-20.57.38:648][247]LogNet: Join request: /Game/ThirdPersonBP/Maps/MenuPrincipal?Name=Miguel-PC-7E413113475B01782C7AFE8C7DF12FC7?SplitscreenCount=1
+[2018.03.28-20.57.38:650][247]LogNet: Join succeeded: Miguel-PC-7E41311347
+[2018.03.28-20.58.33:962][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.58.34:031][375]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.58.34:031][375]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.28-20.58.34:066][375]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.28-20.58.34:066][375]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.28-20.58.34:104][375]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.58.34:104][375]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.03.28-20.58.34:105][375]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.03.28-20.58.34:105][375]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.03.28-20.58.34:105][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.03.28-20.58.34:105][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2018.03.28-20.58.34:148][375]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2018.03.28-20.58.34:148][375]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, Channels: 10, Time: 2018.03.28-20.58.34
+[2018.03.28-20.58.34:148][375]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2018.03.28-20.58.34:148][375]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:52627, Name: None, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2018.03.28-20.58.34:148][375]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.33:52627, Name: None, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, Channels: 10, Time: 2018.03.28-20.58.34
+[2018.03.28-20.58.34:148][375]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.33:52627, Name: None, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2018.03.28-20.58.34:154][375]LogExit: GameNetDriver None shut down
+[2018.03.28-20.58.34:155][375]LogExit: GameNetDriver None shut down
+[2018.03.28-20.58.34:188][376]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.03.28-20.58.34:188][376]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-20.58.34:188][376]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.03.28-20.58.34:188][376]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.03.28-21.03.14:869][  1]LogEditorTransaction: Undo Create Pin Link
+[2018.03.28-21.03.25:729][125]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.28-21.03.26:848][170]LogSavePackage: Save=136.83ms
+[2018.03.28-21.03.26:848][170]LogSavePackage: Moving '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Saved/ThirdPersonCharacter56B4E95247AAB95D8A681390D97A33EC.tmp' to '../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.28-21.03.26:863][170]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Miguel/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
