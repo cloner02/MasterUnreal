@@ -1,0 +1,1412 @@
+﻿Log file open, 04/04/18 20:35:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: projectUnreal
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1971206487) SRandInit(1971206488).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.287654
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.04-18.35.24:841][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.04-18.35.24:841][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.04-18.35.24:892][  0]LogInit: Computer: DESKTOP-J2JN6VI
+[2018.04.04-18.35.24:892][  0]LogInit: User: Alumno
+[2018.04.04-18.35.24:892][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.04-18.35.24:892][  0]LogInit: High frequency timer resolution =2.648444 MHz
+[2018.04.04-18.35.24:892][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.04.04-18.35.24:892][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.04-18.35.24:892][  0]LogMemory: Process Physical Memory: 273.57 MB used, 273.57 MB peak
+[2018.04.04-18.35.24:892][  0]LogMemory: Process Virtual Memory: 270.04 MB used, 270.04 MB peak
+[2018.04.04-18.35.24:892][  0]LogMemory: Physical Memory: 6096.05 MB used,  2032.62 MB free, 8128.67 MB total
+[2018.04.04-18.35.24:892][  0]LogMemory: Virtual Memory: 629.39 MB used,  2032.62 MB free, 134217728.00 MB total
+[2018.04.04-18.35.25:310][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.04-18.35.25:311][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.04-18.35.26:273][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.04-18.35.27:564][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.04-18.35.27:715][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2018.04.04-18.35.27:715][  0]LogD3D11RHI:       2017/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.04-18.35.27:717][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.04-18.35.27:717][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.04-18.35.27:717][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.04-18.35.27:725][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.04-18.35.27:725][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.04-18.35.27:725][  0]LogWindows: EnumDisplayDevices:
+[2018.04.04-18.35.27:726][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2018.04.04-18.35.27:726][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2018.04.04-18.35.27:726][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2018.04.04-18.35.27:726][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2018.04.04-18.35.27:726][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.04-18.35.27:726][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2018.04.04-18.35.27:726][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.04.04-18.35.27:726][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.04.04-18.35.27:726][  0]LogRHI: Texture pool is 1412 MB (70% of 2017 MB)
+[2018.04.04-18.35.27:757][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.04-18.35.27:768][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.04-18.35.27:771][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Intermediate/Shaders/WorkingDirectory/10592/).
+[2018.04.04-18.35.27:783][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/8613EF1640D7F3243188BBB20CAE62FC/'.
+[2018.04.04-18.35.27:783][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.04-18.35.31:261][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.04-18.35.31:345][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.04-18.35.31:427][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.04-18.35.31:505][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.04-18.35.31:613][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.04-18.35.31:700][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.04-18.35.31:778][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.04-18.35.31:857][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.04-18.35.31:932][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.04-18.35.32:014][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.04-18.35.32:093][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.04-18.35.32:173][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.04-18.35.32:255][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.04-18.35.32:336][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.04-18.35.32:489][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.04-18.35.32:489][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.04-18.35.32:584][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.04-18.35.32:671][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.04-18.35.32:924][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.04-18.35.32:962][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.04-18.35.33:070][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.04-18.35.33:202][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.04-18.35.33:289][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.04-18.35.33:392][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.04-18.35.33:392][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.04-18.35.34:451][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.04-18.35.34:832][  0]LogDerivedDataCache: Loaded boot cache 0.38s 78MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.04-18.35.34:832][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.04-18.35.34:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.04-18.35.34:832][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.04-18.35.34:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.04-18.35.34:832][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.04-18.35.34:855][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.04-18.35.34:868][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.04-18.35.34:883][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.04-18.35.34:883][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.04-18.35.34:909][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.04-18.35.34:909][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.04-18.35.37:324][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.04-18.35.37:974][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.04-18.35.38:038][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.04-18.35.38:038][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.04-18.35.38:038][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.04-18.35.38:038][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.04-18.35.38:038][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.04-18.35.38:075][  0]LogNetVersion: projectUnreal , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 476494951)
+[2018.04.04-18.35.38:316][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.04.04-18.35.39:055][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.077338 seconds
+[2018.04.04-18.35.39:063][  0]LogUObjectArray: 35877 objects as part of root set at end of initial load.
+[2018.04.04-18.35.39:063][  0]LogUObjectAllocator: 7577632 out of 0 bytes used by permanent object pool.
+[2018.04.04-18.35.39:063][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.04-18.36.07:907][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.04-18.36.07:982][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.04-18.36.09:141][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.04-18.36.09:891][  0]SourceControl: Source control is disabled
+[2018.04.04-18.36.09:891][  0]SourceControl: Source control is disabled
+[2018.04.04-18.36.10:005][  0]SourceControl: Source control is disabled
+[2018.04.04-18.36.10:118][  0]SourceControl: Source control is disabled
+[2018.04.04-18.36.11:517][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.04-18.36.12:009][  0]LogOcInput: OculusInput pre-init called
+[2018.04.04-18.36.12:553][  0]LogEngine: Initializing Engine...
+[2018.04.04-18.36.12:556][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.04-18.36.12:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.04-18.36.12:898][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.04-18.36.13:154][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.04-18.36.13:177][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.04-18.36.13:194][  0]LogInit: FAudioDevice initialized.
+[2018.04.04-18.36.13:327][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.04-18.36.13:341][  0]LogInit: Texture streaming: Enabled
+[2018.04.04-18.36.13:567][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.04-18.36.13:818][  0]LogInit: Transaction tracking system initialized
+[2018.04.04-18.36.14:402][  0]BlueprintLog: New page: Editor Load
+[2018.04.04-18.36.16:130][  0]LocalizationService: Localization service is disabled
+[2018.04.04-18.36.17:391][  0]LogConsoleResponse: Display: 
+[2018.04.04-18.36.17:629][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.04-18.36.17:629][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.04-18.36.17:629][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.04-18.36.18:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/' took 0.02s
+[2018.04.04-18.36.19:607][  0]SourceControl: Source control is disabled
+[2018.04.04-18.36.19:607][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Maps/MenuPrincipal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.04-18.36.19:608][  0]LightingResults: New page: Lighting Build
+[2018.04.04-18.36.19:677][  0]MapCheck: New page: Map Check
+[2018.04.04-18.36.19:677][  0]LightingResults: New page: Lighting Build
+[2018.04.04-18.36.20:504][  0]LogAIModule: Creating AISystem for world MenuPrincipal
+[2018.04.04-18.36.20:506][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.04-18.36.20:521][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.04-18.36.20:619][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.833ms to complete.
+[2018.04.04-18.36.20:619][  0]LogFileHelpers: Loading map 'MenuPrincipal' took 1.012
+[2018.04.04-18.36.20:870][  0]LogCollectionManager: Loaded 0 collections in 0.002468 seconds
+[2018.04.04-18.36.20:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Collections/' took 0.01s
+[2018.04.04-18.36.20:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/Developers/Alumno/Collections/' took 0.01s
+[2018.04.04-18.36.20:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/Collections/' took 0.01s
+[2018.04.04-18.36.20:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.04-18.36.20:990][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2365 classes and 522 folders.
+[2018.04.04-18.36.21:087][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.04-18.36.21:758][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.04-18.36.21:851][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.04-18.36.21:891][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.04-18.36.21:894][  0]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.04-18.36.21:921][  0]LogSlate: Took 0.020222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.04-18.36.22:062][  0]LogRenderer: Reallocating scene render targets to support 1068x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.04-18.36.22:301][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.04-18.36.22:301][  0]LogLoad: (Engine Initialization) Total time: 65.94 seconds
+[2018.04.04-18.36.22:301][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.04-18.36.22:301][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.04-18.36.22:328][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.04-18.36.22:408][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.04-18.36.22:429][  1]LogAssetRegistry: Asset discovery search completed in 44.1350 seconds
+[2018.04.04-18.36.22:431][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.04-18.36.22:431][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2018.04.04-18.36.23:335][ 96]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.04-18.38.43:950][720]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.38.43:950][720]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimCaida.uasset.
+[2018.04.04-18.38.43:962][720]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimCaida : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.38.43:962][720]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.38.43:962][720]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimCaida.uasset.
+[2018.04.04-18.38.43:963][720]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.38.43:963][720]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimCaida
+[2018.04.04-18.38.43:963][720]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.38.43:968][720]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.04-18.38.48:051][720]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.04-18.38.48:123][720]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.04.04-18.38.51:645][ 76]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimCaida.AnimCaida
+[2018.04.04-18.38.51:646][ 76]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimCaida) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.38.51:826][ 76]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.04-18.38.53:004][ 76]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.04-18.39.17:964][178]LogRenderer: Reallocating scene render targets to support 1144x576 Format 10 NumSamples 1 (Frame:2140).
+[2018.04.04-18.39.31:503][303]LogRenderer: Reallocating scene render targets to support 1144x888 Format 10 NumSamples 1 (Frame:1).
+[2018.04.04-18.39.45:054][634]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Arma'
+[2018.04.04-18.39.45:055][634]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Arma' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/arma_texturizada_Default_Material.uasset.
+[2018.04.04-18.39.45:055][634]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material : Can't find file for asset. /Game/Meshes/Materials/M_Arma
+[2018.04.04-18.39.45:055][634]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Arma'
+[2018.04.04-18.39.45:055][634]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Arma' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/arma_texturizada_Default_Material.uasset.
+[2018.04.04-18.39.45:056][634]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Arma'
+[2018.04.04-18.39.45:056][634]LoadErrors: Failed to load /Game/Meshes/Materials/M_Arma.M_Arma Referenced by MaterialExpressionTextureSample_0
+[2018.04.04-18.39.45:056][634]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Arma' while loading NULL.
+[2018.04.04-18.39.45:067][634]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.39.45:074][634]LogMaterial: Warning: C:\Users\Alumno\Documents\GitHub\MasterUnreal\projectUnreal\Content\ThirdPersonBP\Meshes\arma_texturizada_Default_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.39.45:074][634]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.39.45:179][634]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.04.04-18.39.45:205][634]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.39.45:205][634]LogMaterial: Warning: /Engine/Transient.arma_texturizada_Default_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.39.45:205][634]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.39.45:470][634]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.39.45:470][634]LogMaterial: Warning: /Engine/Transient.arma_texturizada_Default_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.39.45:470][634]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.39.45:506][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.39.45:510][634]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.39.45:525][634]LogSlate: Took 0.011350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.04-18.39.52:545][189]LogLinker: Warning: Can't find file '/Game/Meshes/arma_texturizada_Default_Material'
+[2018.04.04-18.39.52:545][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/arma_texturizada_Default_Material' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:545][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/AnimCaida : Can't find file for asset. /Game/Meshes/arma_texturizada_Default_Material
+[2018.04.04-18.39.52:545][189]LogLinker: Warning: Can't find file '/Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2'
+[2018.04.04-18.39.52:545][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:545][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/AnimCaida : Can't find file for asset. /Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2
+[2018.04.04-18.39.52:546][189]LogLinker: Warning: Can't find file '/Game/Meshes/Default_Material_u1_v2'
+[2018.04.04-18.39.52:546][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Default_Material_u1_v2' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:546][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/AnimCaida : Can't find file for asset. /Game/Meshes/Default_Material_u1_v2
+[2018.04.04-18.39.52:546][189]LogLinker: Warning: Can't find file '/Game/Meshes/Default_Material_u1_v3'
+[2018.04.04-18.39.52:546][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Default_Material_u1_v3' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:546][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/AnimCaida : Can't find file for asset. /Game/Meshes/Default_Material_u1_v3
+[2018.04.04-18.39.52:546][189]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_PhysicsAsset'
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_PhysicsAsset' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:547][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/AnimCaida : Can't find file for asset. /Game/Meshes/AnimCaida_PhysicsAsset
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:547][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/AnimCaida : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file '/Game/Meshes/arma_texturizada_Default_Material'
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/arma_texturizada_Default_Material' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file '/Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2'
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:547][189]LogLinker: Warning: Can't find file '/Game/Meshes/Default_Material_u1_v2'
+[2018.04.04-18.39.52:548][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Default_Material_u1_v2' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:548][189]LogLinker: Warning: Can't find file '/Game/Meshes/Default_Material_u1_v3'
+[2018.04.04-18.39.52:548][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Default_Material_u1_v3' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:548][189]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_PhysicsAsset'
+[2018.04.04-18.39.52:548][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_PhysicsAsset' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:548][189]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.39.52:549][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/AnimCaida.uasset.
+[2018.04.04-18.39.52:551][189]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.39.52:551][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.39.52:551][189]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_PhysicsAsset'
+[2018.04.04-18.39.52:551][189]LoadErrors: Failed to load /Game/Meshes/AnimCaida_PhysicsAsset.AnimCaida_PhysicsAsset Referenced by AnimCaida
+[2018.04.04-18.39.52:552][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_PhysicsAsset' while loading NULL.
+[2018.04.04-18.39.52:552][189]LogLinker: Warning: Can't find file '/Game/Meshes/Default_Material_u1_v2'
+[2018.04.04-18.39.52:552][189]LoadErrors: Failed to load /Game/Meshes/Default_Material_u1_v2.Default_Material_u1_v2 Referenced by AnimCaida
+[2018.04.04-18.39.52:552][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Default_Material_u1_v2' while loading NULL.
+[2018.04.04-18.39.52:552][189]LogLinker: Warning: Can't find file '/Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2'
+[2018.04.04-18.39.52:552][189]LoadErrors: Failed to load /Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.cabeza_texturizada_sin_signo_Default_Material_u1_v2 Referenced by AnimCaida
+[2018.04.04-18.39.52:553][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2' while loading NULL.
+[2018.04.04-18.39.52:553][189]LogLinker: Warning: Can't find file '/Game/Meshes/arma_texturizada_Default_Material'
+[2018.04.04-18.39.52:553][189]LoadErrors: Failed to load /Game/Meshes/arma_texturizada_Default_Material.arma_texturizada_Default_Material Referenced by AnimCaida
+[2018.04.04-18.39.52:553][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/arma_texturizada_Default_Material' while loading NULL.
+[2018.04.04-18.39.52:553][189]LogLinker: Warning: Can't find file '/Game/Meshes/Default_Material_u1_v3'
+[2018.04.04-18.39.52:553][189]LoadErrors: Failed to load /Game/Meshes/Default_Material_u1_v3.Default_Material_u1_v3 Referenced by AnimCaida
+[2018.04.04-18.39.52:553][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Default_Material_u1_v3' while loading NULL.
+[2018.04.04-18.39.52:566][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_CabezaTriangulo'
+[2018.04.04-18.39.52:566][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_CabezaTriangulo' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset.
+[2018.04.04-18.39.52:566][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2 : Can't find file for asset. /Game/Meshes/Materials/M_CabezaTriangulo
+[2018.04.04-18.39.52:566][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_CabezaTriangulo'
+[2018.04.04-18.39.52:566][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_CabezaTriangulo' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset.
+[2018.04.04-18.39.52:567][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_CabezaTriangulo'
+[2018.04.04-18.39.52:567][189]LoadErrors: Failed to load /Game/Meshes/Materials/M_CabezaTriangulo.M_CabezaTriangulo Referenced by MaterialExpressionTextureSample_1
+[2018.04.04-18.39.52:567][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_CabezaTriangulo' while loading NULL.
+[2018.04.04-18.39.52:580][189]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.39.52:581][189]LogMaterial: Warning: C:\Users\Alumno\Documents\GitHub\MasterUnreal\projectUnreal\Content\ThirdPersonBP\Meshes\cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.39.52:581][189]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.39.52:583][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Muñeco'
+[2018.04.04-18.39.52:583][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Muñeco' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v2.uasset.
+[2018.04.04-18.39.52:583][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Default_Material_u1_v2 : Can't find file for asset. /Game/Meshes/Materials/M_Muñeco
+[2018.04.04-18.39.52:583][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Muñeco'
+[2018.04.04-18.39.52:583][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Muñeco' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v2.uasset.
+[2018.04.04-18.39.52:584][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Muñeco'
+[2018.04.04-18.39.52:584][189]LoadErrors: Failed to load /Game/Meshes/Materials/M_Muñeco.M_Muñeco Referenced by MaterialExpressionTextureSample_2
+[2018.04.04-18.39.52:584][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Muñeco' while loading NULL.
+[2018.04.04-18.39.52:603][189]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.39.52:604][189]LogMaterial: Warning: C:\Users\Alumno\Documents\GitHub\MasterUnreal\projectUnreal\Content\ThirdPersonBP\Meshes\Default_Material_u1_v2.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.39.52:604][189]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.39.52:606][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Silla'
+[2018.04.04-18.39.52:606][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Silla' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset.
+[2018.04.04-18.39.52:606][189]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Default_Material_u1_v3 : Can't find file for asset. /Game/Meshes/Materials/M_Silla
+[2018.04.04-18.39.52:607][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Silla'
+[2018.04.04-18.39.52:607][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Silla' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset.
+[2018.04.04-18.39.52:607][189]LogLinker: Warning: Can't find file '/Game/Meshes/Materials/M_Silla'
+[2018.04.04-18.39.52:607][189]LoadErrors: Failed to load /Game/Meshes/Materials/M_Silla.M_Silla Referenced by MaterialExpressionTextureSample_3
+[2018.04.04-18.39.52:607][189]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Materials/M_Silla' while loading NULL.
+[2018.04.04-18.39.52:627][189]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.39.52:627][189]LogMaterial: Warning: C:\Users\Alumno\Documents\GitHub\MasterUnreal\projectUnreal\Content\ThirdPersonBP\Meshes\Default_Material_u1_v3.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.39.52:627][189]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.40.01:681][715]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.04-18.40.36:188][355]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimCaida.FBX)
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Model, ItemCount : 37
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Material, ItemCount : 4
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Texture, ItemCount : 8
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: NodeAttribute, ItemCount : 35
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: AnimationCurve, ItemCount : 228
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: AnimationCurveNode, ItemCount : 76
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Deformer, ItemCount : 31
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.04.04-18.40.36:274][355]LogFbx: ItemName: Video, ItemCount : 8
+[2018.04.04-18.40.36:280][355]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimCaida.FBX
+[2018.04.04-18.40.42:958][355]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.40.47:797][355]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimCaida.FBX
+[2018.04.04-18.41.00:520][355]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.41.00:521][355]LogFbx: =================================================
+[2018.04.04-18.41.00:521][355]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.41.00:521][355]LogFbx: 	Total Deformer Count -610280384.
+[2018.04.04-18.41.00:521][355]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.41.00:521][355]LogFbx: =================================================
+[2018.04.04-18.41.00:521][355]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.41.00:521][355]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.41.00:522][355]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.41.00:522][355]LogFbx: =================================================
+[2018.04.04-18.41.00:522][355]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.41.00:522][355]LogFbx: 	Total Deformer Count -610280384.
+[2018.04.04-18.41.00:522][355]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.41.00:522][355]LogFbx: =================================================
+[2018.04.04-18.41.00:522][355]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.41.00:522][355]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.41.00:522][355]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.41.00:559][355]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Cylinder022 : The relative matrices do not match
+[2018.04.04-18.41.00:567][355]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.04.04-18.41.00:569][355]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cylinder022
+[2018.04.04-18.41.00:569][355]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.04.04-18.41.00:601][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Default_Material_u1_v2'
+[2018.04.04-18.41.00:601][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Default_Material_u1_v2'
+[2018.04.04-18.41.00:617][355]LogMaterial: Warning: Material /Game/ThirdPersonBP/Meshes/Default_Material_u1_v2.Default_Material_u1_v2 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.04.04-18.41.00:632][355]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.41.00:736][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_Default_Material_u1_v2_Diffuse'
+[2018.04.04-18.41.00:736][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_Default_Material_u1_v2_Diffuse'
+[2018.04.04-18.41.02:033][355]Error: Texture import failed
+[2018.04.04-18.41.02:046][355]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.41.02:129][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2'
+[2018.04.04-18.41.02:129][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2'
+[2018.04.04-18.41.02:130][355]LogMaterial: Warning: Material /Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.cabeza_texturizada_sin_signo_Default_Material_u1_v2 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.04.04-18.41.02:152][355]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.41.02:231][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_cabeza_texturizada_sin_signo_Default_Material_Diffuse_u1_v1'
+[2018.04.04-18.41.02:231][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_cabeza_texturizada_sin_signo_Default_Material_Diffuse_u1_v1'
+[2018.04.04-18.41.02:235][355]Error: Texture import failed
+[2018.04.04-18.41.02:239][355]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.41.02:316][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material'
+[2018.04.04-18.41.02:316][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material'
+[2018.04.04-18.41.02:316][355]LogMaterial: Warning: Material /Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material.arma_texturizada_Default_Material needed to have new flag set bUsedWithSkeletalMesh !
+[2018.04.04-18.41.02:333][355]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.41.02:414][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_arma_texturizada_Default_Material_Diffuse'
+[2018.04.04-18.41.02:415][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_arma_texturizada_Default_Material_Diffuse'
+[2018.04.04-18.41.02:429][355]Error: Texture import failed
+[2018.04.04-18.41.02:432][355]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.41.02:503][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Default_Material_u1_v3'
+[2018.04.04-18.41.02:503][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Default_Material_u1_v3'
+[2018.04.04-18.41.02:506][355]LogMaterial: Warning: Material /Game/ThirdPersonBP/Meshes/Default_Material_u1_v3.Default_Material_u1_v3 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.04.04-18.41.02:509][355]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.41.02:584][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_Default_Material_u1_v3_Diffuse'
+[2018.04.04-18.41.02:584][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Channel_Default_Material_u1_v3_Diffuse'
+[2018.04.04-18.41.02:589][355]Error: Texture import failed
+[2018.04.04-18.41.02:592][355]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.41.02:672][355]LogFbx: Triangulating skeletal mesh Cylinder022
+[2018.04.04-18.41.02:878][355]LogFbx: Warning: Bones digested - 35  Depth of hierarchy - 13
+[2018.04.04-18.41.03:105][355]LogSkeletalMesh: Section 0: 2700 vertices, 26 active bones
+[2018.04.04-18.41.03:105][355]LogSkeletalMesh: Section 1: 333 vertices, 7 active bones
+[2018.04.04-18.41.03:105][355]LogSkeletalMesh: Section 2: 395 vertices, 1 active bones
+[2018.04.04-18.41.03:106][355]LogSkeletalMesh: Section 3: 6804 vertices, 3 active bones
+[2018.04.04-18.41.03:115][355]LogSkeletalMesh: Section 0: Material=0, 900 triangles
+[2018.04.04-18.41.03:115][355]LogSkeletalMesh: Section 1: Material=1, 188 triangles
+[2018.04.04-18.41.03:115][355]LogSkeletalMesh: Section 2: Material=2, 336 triangles
+[2018.04.04-18.41.03:115][355]LogSkeletalMesh: Section 3: Material=3, 5832 triangles
+[2018.04.04-18.41.03:121][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.41.03:121][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.41.03:122][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset'
+[2018.04.04-18.41.03:122][355]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset'
+[2018.04.04-18.41.03:170][355]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.04.04-18.41.03:170][355]FBXImport: Warning: The following bones are missing from the bind pose:
+Bip001 L Finger0Nub  
+Bip001 R Finger0Nub  
+Bip001 HeadNub  
+Bip001 L Toe0Nub  
+Bip001 R Toe0Nub  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.04.04-18.41.09:911][717]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2018.04.04-18.41.09:949][717]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2018.04.04-18.41.10:303][717]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.04.04-18.43.14:314][159]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.14:315][159]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda.uasset.
+[2018.04.04-18.43.14:315][159]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.14:315][159]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.14:315][159]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda.uasset.
+[2018.04.04-18.43.14:315][159]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.14:316][159]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimDespIzquierda
+[2018.04.04-18.43.14:316][159]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:730][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:730][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimVictoria.uasset.
+[2018.04.04-18.43.17:730][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimVictoria : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:730][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:730][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimVictoria.uasset.
+[2018.04.04-18.43.17:731][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:731][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimVictoria
+[2018.04.04-18.43.17:731][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:732][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:732][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDespDerecha.uasset.
+[2018.04.04-18.43.17:733][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:733][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:733][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDespDerecha.uasset.
+[2018.04.04-18.43.17:733][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:733][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimDespDerecha
+[2018.04.04-18.43.17:734][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:735][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:735][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras.uasset.
+[2018.04.04-18.43.17:735][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:735][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:735][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras.uasset.
+[2018.04.04-18.43.17:736][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:736][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by animDespHaciaAtras
+[2018.04.04-18.43.17:736][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:738][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:738][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante.uasset.
+[2018.04.04-18.43.17:738][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:738][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:738][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante.uasset.
+[2018.04.04-18.43.17:739][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:739][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimDespHaciaDelante
+[2018.04.04-18.43.17:739][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:740][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:741][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDisparo.uasset.
+[2018.04.04-18.43.17:741][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimDisparo : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:741][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:741][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimDisparo.uasset.
+[2018.04.04-18.43.17:741][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:741][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimDisparo
+[2018.04.04-18.43.17:742][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:744][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:744][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha.uasset.
+[2018.04.04-18.43.17:744][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:744][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:744][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha.uasset.
+[2018.04.04-18.43.17:745][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:745][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimGiroDerecha
+[2018.04.04-18.43.17:745][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.17:747][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:747][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda.uasset.
+[2018.04.04-18.43.17:748][402]LoadErrors: Error: /Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda : Can't find file for asset. /Game/Meshes/AnimCaida_Skeleton
+[2018.04.04-18.43.17:748][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:748][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda.uasset.
+[2018.04.04-18.43.17:748][402]LogLinker: Warning: Can't find file '/Game/Meshes/AnimCaida_Skeleton'
+[2018.04.04-18.43.17:748][402]LoadErrors: Failed to load /Game/Meshes/AnimCaida_Skeleton.AnimCaida_Skeleton Referenced by AnimGiroIzquierda
+[2018.04.04-18.43.17:749][402]LogLinker: Warning: Can't find file for asset '/Game/Meshes/AnimCaida_Skeleton' while loading NULL.
+[2018.04.04-18.43.36:919][596]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimCaida.FBX)
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Model, ItemCount : 37
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Material, ItemCount : 4
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Texture, ItemCount : 8
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: NodeAttribute, ItemCount : 35
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: AnimationCurve, ItemCount : 228
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: AnimationCurveNode, ItemCount : 76
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Deformer, ItemCount : 31
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.04.04-18.43.36:989][596]LogFbx: ItemName: Video, ItemCount : 8
+[2018.04.04-18.43.36:994][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimCaida.FBX
+[2018.04.04-18.43.37:658][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.43.45:279][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimCaida.FBX
+[2018.04.04-18.43.49:844][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.43.49:845][596]LogFbx: =================================================
+[2018.04.04-18.43.49:845][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.43.49:845][596]LogFbx: 	Total Deformer Count -704357312.
+[2018.04.04-18.43.49:845][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.43.49:845][596]LogFbx: =================================================
+[2018.04.04-18.43.49:845][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.43.49:845][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.43.49:845][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.43.49:846][596]LogFbx: =================================================
+[2018.04.04-18.43.49:846][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.43.49:846][596]LogFbx: 	Total Deformer Count -704357312.
+[2018.04.04-18.43.49:846][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.43.49:846][596]LogFbx: =================================================
+[2018.04.04-18.43.49:846][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.43.49:846][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.43.49:846][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(12) Bip001 L Finger0Nub
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(13) Bip001 R Clavicle
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(14) Bip001 R UpperArm
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(15) Bip001 R Forearm
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(16) Bip001 R Hand
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(17) Bip001 R Finger0
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(18) Bip001 R Finger0Nub
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(19) Bip001 Head
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(20) Bip001 HeadNub
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(21) Bip001 L Thigh
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(22) Bip001 L Calf
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(23) Bip001 L Foot
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(24) Bip001 L Toe0
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(25) Bip001 L Toe0Nub
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(26) Bip001 R Thigh
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(27) Bip001 R Calf
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(28) Bip001 R Foot
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(29) Bip001 R Toe0
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(30) Bip001 R Toe0Nub
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(31) Bone001
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(32) Bone002
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(33) Bone003
+[2018.04.04-18.43.49:847][596]LogFbx: SortedLinks :(34) Bone004
+[2018.04.04-18.43.49:848][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.43.49:852][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimCaida'
+[2018.04.04-18.43.49:852][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimCaida'
+[2018.04.04-18.43.50:160][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimCaida.AnimCaida
+[2018.04.04-18.43.50:160][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimCaida) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.43.50:285][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDespDerecha.FBX)
+[2018.04.04-18.43.50:359][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDespDerecha.FBX
+[2018.04.04-18.43.52:324][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.43.52:326][596]LogFbx: =================================================
+[2018.04.04-18.43.52:326][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.43.52:326][596]LogFbx: 	Total Deformer Count -869611776.
+[2018.04.04-18.43.52:326][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.43.52:326][596]LogFbx: =================================================
+[2018.04.04-18.43.52:326][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.43.52:326][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.43.52:326][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.43.52:326][596]LogFbx: =================================================
+[2018.04.04-18.43.52:326][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.43.52:327][596]LogFbx: 	Total Deformer Count -869611776.
+[2018.04.04-18.43.52:327][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.43.52:327][596]LogFbx: =================================================
+[2018.04.04-18.43.52:327][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.43.52:327][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.43.52:327][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.43.52:327][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.43.52:328][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.43.52:331][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha'
+[2018.04.04-18.43.52:331][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha'
+[2018.04.04-18.43.52:467][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha.AnimDespDerecha
+[2018.04.04-18.43.52:467][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimDespDerecha) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.43.52:615][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/animDespHaciaAtras.FBX)
+[2018.04.04-18.43.52:682][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/animDespHaciaAtras.FBX
+[2018.04.04-18.43.57:248][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.43.57:249][596]LogFbx: =================================================
+[2018.04.04-18.43.57:249][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.43.57:249][596]LogFbx: 	Total Deformer Count -679520192.
+[2018.04.04-18.43.57:249][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.43.57:249][596]LogFbx: =================================================
+[2018.04.04-18.43.57:249][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.43.57:249][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.43.57:249][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.43.57:250][596]LogFbx: =================================================
+[2018.04.04-18.43.57:250][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.43.57:250][596]LogFbx: 	Total Deformer Count -679520192.
+[2018.04.04-18.43.57:250][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.43.57:250][596]LogFbx: =================================================
+[2018.04.04-18.43.57:250][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.43.57:250][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.43.57:250][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.43.57:250][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.43.57:251][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.43.57:251][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.43.57:255][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras'
+[2018.04.04-18.43.57:255][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras'
+[2018.04.04-18.43.57:393][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras.animDespHaciaAtras
+[2018.04.04-18.43.57:394][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.animDespHaciaAtras) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.43.57:642][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDespHaciaDelante.FBX)
+[2018.04.04-18.43.59:941][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDespHaciaDelante.FBX
+[2018.04.04-18.44.27:289][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.44.27:291][596]LogFbx: =================================================
+[2018.04.04-18.44.27:291][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.27:291][596]LogFbx: 	Total Deformer Count -637502848.
+[2018.04.04-18.44.27:291][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.27:291][596]LogFbx: =================================================
+[2018.04.04-18.44.27:291][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.27:291][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.27:291][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.27:291][596]LogFbx: =================================================
+[2018.04.04-18.44.27:291][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.27:292][596]LogFbx: 	Total Deformer Count -637502848.
+[2018.04.04-18.44.27:292][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.27:292][596]LogFbx: =================================================
+[2018.04.04-18.44.27:292][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.27:292][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.27:292][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.44.27:292][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.44.27:293][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.44.27:302][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante'
+[2018.04.04-18.44.27:302][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante'
+[2018.04.04-18.44.27:463][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante.AnimDespHaciaDelante
+[2018.04.04-18.44.27:463][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimDespHaciaDelante) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.44.27:638][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDespIzquierda.FBX)
+[2018.04.04-18.44.27:730][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDespIzquierda.FBX
+[2018.04.04-18.44.35:566][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.44.35:567][596]LogFbx: =================================================
+[2018.04.04-18.44.35:567][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.35:567][596]LogFbx: 	Total Deformer Count -636675200.
+[2018.04.04-18.44.35:567][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.35:567][596]LogFbx: =================================================
+[2018.04.04-18.44.35:567][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.35:567][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.35:567][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.35:568][596]LogFbx: =================================================
+[2018.04.04-18.44.35:568][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.35:568][596]LogFbx: 	Total Deformer Count -636675200.
+[2018.04.04-18.44.35:568][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.35:568][596]LogFbx: =================================================
+[2018.04.04-18.44.35:568][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.35:568][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.35:568][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.44.35:568][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.44.35:569][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.44.35:569][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.44.35:574][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda'
+[2018.04.04-18.44.35:574][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda'
+[2018.04.04-18.44.35:698][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda.AnimDespIzquierda
+[2018.04.04-18.44.35:699][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimDespIzquierda) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.44.35:727][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDisparo.FBX)
+[2018.04.04-18.44.35:751][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimDisparo.FBX
+[2018.04.04-18.44.35:774][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.44.35:775][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.44.35:776][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.44.35:776][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.44.35:778][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDisparo'
+[2018.04.04-18.44.35:778][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimDisparo'
+[2018.04.04-18.44.35:914][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDisparo.AnimDisparo
+[2018.04.04-18.44.35:914][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimDisparo) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.44.36:043][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimGiroDerecha.FBX)
+[2018.04.04-18.44.36:114][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimGiroDerecha.FBX
+[2018.04.04-18.44.49:066][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.44.49:068][596]LogFbx: =================================================
+[2018.04.04-18.44.49:068][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.49:068][596]LogFbx: 	Total Deformer Count -624186560.
+[2018.04.04-18.44.49:068][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.49:068][596]LogFbx: =================================================
+[2018.04.04-18.44.49:068][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.49:068][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.49:068][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.49:069][596]LogFbx: =================================================
+[2018.04.04-18.44.49:069][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.49:069][596]LogFbx: 	Total Deformer Count -624186560.
+[2018.04.04-18.44.49:069][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.49:069][596]LogFbx: =================================================
+[2018.04.04-18.44.49:069][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.49:069][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.49:069][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.44.49:069][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.44.49:070][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.44.49:076][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha'
+[2018.04.04-18.44.49:076][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha'
+[2018.04.04-18.44.49:232][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha.AnimGiroDerecha
+[2018.04.04-18.44.49:232][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimGiroDerecha) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.44.49:364][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimGiroIzquierda.FBX)
+[2018.04.04-18.44.49:432][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimGiroIzquierda.FBX
+[2018.04.04-18.44.54:279][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.44.54:280][596]LogFbx: =================================================
+[2018.04.04-18.44.54:280][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.54:280][596]LogFbx: 	Total Deformer Count -629640128.
+[2018.04.04-18.44.54:280][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.54:280][596]LogFbx: =================================================
+[2018.04.04-18.44.54:280][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.54:280][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.54:281][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.54:281][596]LogFbx: =================================================
+[2018.04.04-18.44.54:281][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.44.54:281][596]LogFbx: 	Total Deformer Count -629640128.
+[2018.04.04-18.44.54:281][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.44.54:281][596]LogFbx: =================================================
+[2018.04.04-18.44.54:281][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.44.54:281][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.44.54:281][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(12) Bip001 R Clavicle
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(13) Bip001 R UpperArm
+[2018.04.04-18.44.54:281][596]LogFbx: SortedLinks :(14) Bip001 R Forearm
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(15) Bip001 R Hand
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(16) Bip001 R Finger0
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(17) Bip001 Head
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(18) Bip001 L Thigh
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(19) Bip001 L Calf
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(20) Bip001 L Foot
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(21) Bip001 L Toe0
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(22) Bip001 R Thigh
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(23) Bip001 R Calf
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(24) Bip001 R Foot
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(25) Bip001 R Toe0
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(26) Bone001
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(27) Bone002
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(28) Bone003
+[2018.04.04-18.44.54:282][596]LogFbx: SortedLinks :(29) Bone004
+[2018.04.04-18.44.54:282][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.44.54:286][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda'
+[2018.04.04-18.44.54:287][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda'
+[2018.04.04-18.44.54:421][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda.AnimGiroIzquierda
+[2018.04.04-18.44.54:422][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimGiroIzquierda) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.44.54:557][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimIdle.FBX)
+[2018.04.04-18.44.54:620][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimIdle.FBX
+[2018.04.04-18.45.01:702][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.45.01:705][596]LogFbx: =================================================
+[2018.04.04-18.45.01:705][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.45.01:705][596]LogFbx: 	Total Deformer Count -635321088.
+[2018.04.04-18.45.01:705][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.45.01:705][596]LogFbx: =================================================
+[2018.04.04-18.45.01:705][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.45.01:705][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.45.01:705][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.45.01:706][596]LogFbx: =================================================
+[2018.04.04-18.45.01:706][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.45.01:706][596]LogFbx: 	Total Deformer Count -635321088.
+[2018.04.04-18.45.01:706][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.45.01:706][596]LogFbx: =================================================
+[2018.04.04-18.45.01:706][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.45.01:706][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.45.01:706][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(12) Bip001 L Finger0Nub
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(13) Bip001 R Clavicle
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(14) Bip001 R UpperArm
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(15) Bip001 R Forearm
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(16) Bip001 R Hand
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(17) Bip001 R Finger0
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(18) Bip001 R Finger0Nub
+[2018.04.04-18.45.01:706][596]LogFbx: SortedLinks :(19) Bip001 Head
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(20) Bip001 HeadNub
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(21) Bip001 L Thigh
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(22) Bip001 L Calf
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(23) Bip001 L Foot
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(24) Bip001 L Toe0
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(25) Bip001 L Toe0Nub
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(26) Bip001 R Thigh
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(27) Bip001 R Calf
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(28) Bip001 R Foot
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(29) Bip001 R Toe0
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(30) Bip001 R Toe0Nub
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(31) Bone001
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(32) Bone002
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(33) Bone003
+[2018.04.04-18.45.01:707][596]LogFbx: SortedLinks :(34) Bone004
+[2018.04.04-18.45.01:708][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.45.01:713][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimIdle'
+[2018.04.04-18.45.01:713][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimIdle'
+[2018.04.04-18.45.02:035][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimIdle.AnimIdle
+[2018.04.04-18.45.02:036][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimIdle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.45.02:182][596]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:/Máster/Unreal/Juego Unreal/Animaciones/AnimVictoria.FBX)
+[2018.04.04-18.45.02:256][596]LogFbx: Loading FBX Scene from D:/Máster/Unreal/Juego Unreal/Animaciones/AnimVictoria.FBX
+[2018.04.04-18.45.08:146][596]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.04-18.45.08:147][596]LogFbx: =================================================
+[2018.04.04-18.45.08:147][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.45.08:147][596]LogFbx: 	Total Deformer Count -634727360.
+[2018.04.04-18.45.08:147][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.45.08:147][596]LogFbx: =================================================
+[2018.04.04-18.45.08:147][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.45.08:147][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.45.08:147][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.45.08:148][596]LogFbx: =================================================
+[2018.04.04-18.45.08:148][596]LogFbx: Dumping Node START [Cylinder022] 
+[2018.04.04-18.45.08:148][596]LogFbx: 	Total Deformer Count -634727360.
+[2018.04.04-18.45.08:148][596]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.04-18.45.08:148][596]LogFbx: =================================================
+[2018.04.04-18.45.08:148][596]LogFbx: 	Attribute () Type (4).
+[2018.04.04-18.45.08:148][596]LogFbx: 		[Node Attribute Child 1] Cylinder022 (Type Mesh).
+[2018.04.04-18.45.08:148][596]LogFbx: Dumping Node END [Cylinder022]
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(0) Bip001
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(2) Bip001 Spine
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(5) Bip001 Spine3
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(6) Bip001 Neck
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(7) Bip001 L Clavicle
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(8) Bip001 L UpperArm
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(9) Bip001 L Forearm
+[2018.04.04-18.45.08:148][596]LogFbx: SortedLinks :(10) Bip001 L Hand
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(11) Bip001 L Finger0
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(12) Bip001 L Finger0Nub
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(13) Bip001 R Clavicle
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(14) Bip001 R UpperArm
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(15) Bip001 R Forearm
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(16) Bip001 R Hand
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(17) Bip001 R Finger0
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(18) Bip001 R Finger0Nub
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(19) Bip001 Head
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(20) Bip001 HeadNub
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(21) Bip001 L Thigh
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(22) Bip001 L Calf
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(23) Bip001 L Foot
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(24) Bip001 L Toe0
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(25) Bip001 L Toe0Nub
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(26) Bip001 R Thigh
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(27) Bip001 R Calf
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(28) Bip001 R Foot
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(29) Bip001 R Toe0
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(30) Bip001 R Toe0Nub
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(31) Bone001
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(32) Bone002
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(33) Bone003
+[2018.04.04-18.45.08:149][596]LogFbx: SortedLinks :(34) Bone004
+[2018.04.04-18.45.08:150][596]LogFbx: Parsing AnimStack Take 001
+[2018.04.04-18.45.08:157][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimVictoria'
+[2018.04.04-18.45.08:157][596]LogLinker: Can't find file '/Game/ThirdPersonBP/Meshes/Animations/AnimVictoria'
+[2018.04.04-18.45.08:458][596]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimVictoria.AnimVictoria
+[2018.04.04-18.45.08:458][596]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimVictoria) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.04-18.45.35:786][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.04.04-18.45.35:804][205]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2018.04.04-18.45.36:128][205]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.04-18.46.49:959][227]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.46.50:095][227]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.46.50:169][227]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.46.50:255][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.04-18.46.50:393][228]LogSlate: Took 0.007633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.04-18.46.52:583][428]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.46.55:681][708]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.46.55:742][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.46.55:745][708]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.46.55:746][708]LogMaterial: Warning: /Engine/Transient.arma_texturizada_Default_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.04-18.46.55:746][708]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.46.55:775][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.46.55:778][708]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.04.04-18.46.57:817][868]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MenuPrincipal' took 0.017
+[2018.04.04-18.46.57:821][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimCaida] ([1] browsable assets)...
+[2018.04.04-18.46.57:838][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimCaida.AnimCaida]
+[2018.04.04-18.46.57:838][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimCaida]
+[2018.04.04-18.46.57:854][868]LogSavePackage: Save=13.29ms
+[2018.04.04-18.46.57:854][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimCaida_Auto1F5C38F5447F4622E58C51AA0F3F3DEC9.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimCaida_Auto1.uasset'
+[2018.04.04-18.46.57:857][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimCaida_Auto1.uasset
+[2018.04.04-18.46.57:859][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material] ([1] browsable assets)...
+[2018.04.04-18.46.57:877][868]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material.arma_texturizada_Default_Material]
+[2018.04.04-18.46.57:877][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material]
+[2018.04.04-18.46.57:898][868]LogSavePackage: Save=11.83ms
+[2018.04.04-18.46.57:898][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/arma_texturizada_Default_MateriaEE05D6174350322258D5CD8DE739ECD6.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material_Auto1.uasset'
+[2018.04.04-18.46.57:901][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/arma_texturizada_Default_Material_Auto1.uasset
+[2018.04.04-18.46.57:903][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Default_Material_u1_v3] ([1] browsable assets)...
+[2018.04.04-18.46.57:919][868]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Meshes/Default_Material_u1_v3.Default_Material_u1_v3]
+[2018.04.04-18.46.57:919][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Default_Material_u1_v3]
+[2018.04.04-18.46.57:935][868]LogSavePackage: Save=12.67ms
+[2018.04.04-18.46.57:935][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Default_Material_u1_v3_Auto184C6727B4A04E4A6068A34A201A68B25.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Default_Material_u1_v3_Auto1.uasset'
+[2018.04.04-18.46.57:937][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Default_Material_u1_v3_Auto1.uasset
+[2018.04.04-18.46.57:939][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Meshes/AnimCaida_Skeleton] ([1] browsable assets)...
+[2018.04.04-18.46.57:939][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/AnimCaida_Skeleton]
+[2018.04.04-18.46.57:944][868]LogSavePackage: Save=2.53ms
+[2018.04.04-18.46.57:944][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimCaida_Skeleton_Auto1DDAEC3C44A0E49766C4F2E9CDA75497C.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/AnimCaida_Skeleton_Auto1.uasset'
+[2018.04.04-18.46.57:946][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/AnimCaida_Skeleton_Auto1.uasset
+[2018.04.04-18.46.57:948][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset] ([1] browsable assets)...
+[2018.04.04-18.46.57:966][868]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset.AnimCaida_PhysicsAsset]
+[2018.04.04-18.46.57:966][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset]
+[2018.04.04-18.46.57:986][868]LogSavePackage: Save=17.80ms
+[2018.04.04-18.46.57:986][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimCaida_PhysicsAsset_Auto146BE913B4FE9A6160F97988D94391A2A.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset_Auto1.uasset'
+[2018.04.04-18.46.57:988][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/AnimCaida_PhysicsAsset_Auto1.uasset
+[2018.04.04-18.46.57:990][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/AnimCaida] ([1] browsable assets)...
+[2018.04.04-18.46.58:007][868]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPersonBP/Meshes/AnimCaida.AnimCaida]
+[2018.04.04-18.46.58:007][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/AnimCaida]
+[2018.04.04-18.46.58:044][868]LogSavePackage: Save=34.01ms
+[2018.04.04-18.46.58:044][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimCaida_Auto1747EB9B442E136E1F171BA9D99FC10D8.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/AnimCaida_Auto1.uasset'
+[2018.04.04-18.46.58:046][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/AnimCaida_Auto1.uasset
+[2018.04.04-18.46.58:048][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Default_Material_u1_v2] ([1] browsable assets)...
+[2018.04.04-18.46.58:065][868]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Meshes/Default_Material_u1_v2.Default_Material_u1_v2]
+[2018.04.04-18.46.58:065][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Default_Material_u1_v2]
+[2018.04.04-18.46.58:080][868]LogSavePackage: Save=12.45ms
+[2018.04.04-18.46.58:080][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Default_Material_u1_v2_Auto1E51743754035448A9012069EB5238AB1.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Default_Material_u1_v2_Auto1.uasset'
+[2018.04.04-18.46.58:082][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Default_Material_u1_v2_Auto1.uasset
+[2018.04.04-18.46.58:085][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha] ([1] browsable assets)...
+[2018.04.04-18.46.58:101][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha.AnimDespDerecha]
+[2018.04.04-18.46.58:101][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha]
+[2018.04.04-18.46.58:116][868]LogSavePackage: Save=12.96ms
+[2018.04.04-18.46.58:116][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimDespDerecha_Auto1AE84FD9244FB3FB767A0C89EE3A9756A.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha_Auto1.uasset'
+[2018.04.04-18.46.58:119][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDespDerecha_Auto1.uasset
+[2018.04.04-18.46.58:121][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimVictoria] ([1] browsable assets)...
+[2018.04.04-18.46.58:138][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimVictoria.AnimVictoria]
+[2018.04.04-18.46.58:138][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimVictoria]
+[2018.04.04-18.46.58:152][868]LogSavePackage: Save=12.50ms
+[2018.04.04-18.46.58:153][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimVictoria_Auto12725C9D341CCC65623CE3BAA5922AF8B.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimVictoria_Auto1.uasset'
+[2018.04.04-18.46.58:155][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimVictoria_Auto1.uasset
+[2018.04.04-18.46.58:157][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2] ([1] browsable assets)...
+[2018.04.04-18.46.58:174][868]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.cabeza_texturizada_sin_signo_Default_Material_u1_v2]
+[2018.04.04-18.46.58:174][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2]
+[2018.04.04-18.46.58:189][868]LogSavePackage: Save=12.25ms
+[2018.04.04-18.46.58:189][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/cabeza_texturizada_sin_signo_Def2D66B4E74B08D62FF0CF39BF48C836C5.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2_Auto1.uasset'
+[2018.04.04-18.46.58:191][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2_Auto1.uasset
+[2018.04.04-18.46.58:193][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras] ([1] browsable assets)...
+[2018.04.04-18.46.58:210][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras.animDespHaciaAtras]
+[2018.04.04-18.46.58:210][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras]
+[2018.04.04-18.46.58:227][868]LogSavePackage: Save=14.23ms
+[2018.04.04-18.46.58:227][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/animDespHaciaAtras_Auto178B9B9CE4B67A61BF75572A9969F01BA.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras_Auto1.uasset'
+[2018.04.04-18.46.58:229][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/animDespHaciaAtras_Auto1.uasset
+[2018.04.04-18.46.58:231][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante] ([1] browsable assets)...
+[2018.04.04-18.46.58:247][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante.AnimDespHaciaDelante]
+[2018.04.04-18.46.58:247][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante]
+[2018.04.04-18.46.58:263][868]LogSavePackage: Save=12.75ms
+[2018.04.04-18.46.58:263][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimDespHaciaDelante_Auto1C4AC082A4C24B648B40D64A5257DFD52.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante_Auto1.uasset'
+[2018.04.04-18.46.58:265][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDespHaciaDelante_Auto1.uasset
+[2018.04.04-18.46.58:268][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda] ([1] browsable assets)...
+[2018.04.04-18.46.58:286][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda.AnimDespIzquierda]
+[2018.04.04-18.46.58:286][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda]
+[2018.04.04-18.46.58:301][868]LogSavePackage: Save=12.86ms
+[2018.04.04-18.46.58:301][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimDespIzquierda_Auto110441EC6494FAA703B9007BE1EA651A9.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda_Auto1.uasset'
+[2018.04.04-18.46.58:304][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDespIzquierda_Auto1.uasset
+[2018.04.04-18.46.58:306][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimDisparo] ([1] browsable assets)...
+[2018.04.04-18.46.58:322][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimDisparo.AnimDisparo]
+[2018.04.04-18.46.58:322][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimDisparo]
+[2018.04.04-18.46.58:337][868]LogSavePackage: Save=12.43ms
+[2018.04.04-18.46.58:337][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimDisparo_Auto176BA440C422CB9DC1EFC5E83547DE7CF.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDisparo_Auto1.uasset'
+[2018.04.04-18.46.58:340][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimDisparo_Auto1.uasset
+[2018.04.04-18.46.58:341][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha] ([1] browsable assets)...
+[2018.04.04-18.46.58:359][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha.AnimGiroDerecha]
+[2018.04.04-18.46.58:359][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha]
+[2018.04.04-18.46.58:375][868]LogSavePackage: Save=13.42ms
+[2018.04.04-18.46.58:375][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimGiroDerecha_Auto100B137B84BE1DBD7AE4C2FB5A1ACF850.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha_Auto1.uasset'
+[2018.04.04-18.46.58:377][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimGiroDerecha_Auto1.uasset
+[2018.04.04-18.46.58:379][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda] ([1] browsable assets)...
+[2018.04.04-18.46.58:395][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda.AnimGiroIzquierda]
+[2018.04.04-18.46.58:395][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda]
+[2018.04.04-18.46.58:410][868]LogSavePackage: Save=12.95ms
+[2018.04.04-18.46.58:410][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimGiroIzquierda_Auto18217293B4815F48624DACA996FE9ED79.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda_Auto1.uasset'
+[2018.04.04-18.46.58:413][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimGiroIzquierda_Auto1.uasset
+[2018.04.04-18.46.58:415][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Meshes/Animations/AnimIdle] ([1] browsable assets)...
+[2018.04.04-18.46.58:433][868]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPersonBP/Meshes/Animations/AnimIdle.AnimIdle]
+[2018.04.04-18.46.58:433][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Meshes/Animations/AnimIdle]
+[2018.04.04-18.46.58:450][868]LogSavePackage: Save=12.36ms
+[2018.04.04-18.46.58:450][868]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/AnimIdle_Auto14EFB87F6481266A248A2B299626F6E87.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimIdle_Auto1.uasset'
+[2018.04.04-18.46.58:453][868]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Autosaves/Game/ThirdPersonBP/Meshes/Animations/AnimIdle_Auto1.uasset
+[2018.04.04-18.46.58:453][868]LogFileHelpers: Auto-saving content packages took 0.635
+[2018.04.04-18.47.00:529][ 30]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.47.00:591][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.47.01:789][127]LogMaterialEditor: Saving and Compiling material arma_texturizada_Default_Material
+[2018.04.04-18.47.02:429][127]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.47.02:537][127]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.47.02:622][127]LogMaterial: Missing cached shader map for material arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.47.02:709][127]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy arma_texturizada_Default_Material, compiling. 
+[2018.04.04-18.47.09:047][127]TextureStreamingBuild: Display: Compiling optional shaders took 6.344 seconds.
+[2018.04.04-18.47.16:328][127]LogSavePackage: Save=15.23ms
+[2018.04.04-18.47.16:328][127]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/arma_texturizada_Default_Materia1D96DF064FDE95411849519DEF1DDB8D.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/arma_texturizada_Default_Material.uasset'
+[2018.04.04-18.47.16:334][127]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/arma_texturizada_Default_Material.uasset
+[2018.04.04-18.47.16:348][127]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.04.04-18.47.16:348][127]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.04.04-18.47.16:348][127]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.04.04-18.47.16:348][127]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.04-18.47.16:348][127]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.04-18.47.28:152][167]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.28:280][167]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.28:338][167]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.28:426][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.04-18.47.35:892][840]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.36:699][912]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.36:757][912]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.47.38:891][108]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.38:959][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.47.41:504][309]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.41:566][309]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.47.42:372][376]LogMaterialEditor: Saving and Compiling material cabeza_texturizada_sin_signo_Default_Material_u1_v2
+[2018.04.04-18.47.42:937][376]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.43:035][376]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.43:121][376]LogMaterial: Missing cached shader map for material cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.43:211][376]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy cabeza_texturizada_sin_signo_Default_Material_u1_v2, compiling. 
+[2018.04.04-18.47.49:411][376]TextureStreamingBuild: Display: Compiling optional shaders took 6.206 seconds.
+[2018.04.04-18.47.56:646][376]LogSavePackage: Save=15.02ms
+[2018.04.04-18.47.56:646][376]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/cabeza_texturizada_sin_signo_DefEA5D705F44193214A28544B106308131.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset'
+[2018.04.04-18.47.56:654][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset
+[2018.04.04-18.47.56:666][376]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.04.04-18.47.56:666][376]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.04.04-18.47.56:666][376]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.04.04-18.47.56:666][376]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.04-18.47.56:666][376]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.04-18.49.03:004][414]LogMaterialEditor: Saving and Compiling material cabeza_texturizada_sin_signo_Default_Material_u1_v2
+[2018.04.04-18.49.03:054][414]LogSavePackage: Save=3.67ms
+[2018.04.04-18.49.03:054][414]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/cabeza_texturizada_sin_signo_Def074A488547121DDBA82AD689ADF332ED.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset'
+[2018.04.04-18.49.03:056][414]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/cabeza_texturizada_sin_signo_Default_Material_u1_v2.uasset
+[2018.04.04-18.49.05:674][616]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.05:809][616]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.05:869][616]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.05:955][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.04-18.49.10:150][  7]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.10:394][ 23]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.10:454][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.49.12:457][209]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.12:527][209]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.49.15:740][467]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.15:806][467]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.49.16:760][546]LogMaterialEditor: Saving and Compiling material Default_Material_u1_v2
+[2018.04.04-18.49.17:317][546]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.17:448][546]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.17:533][546]LogMaterial: Missing cached shader map for material Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.17:638][546]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Default_Material_u1_v2, compiling. 
+[2018.04.04-18.49.23:864][546]TextureStreamingBuild: Display: Compiling optional shaders took 6.244 seconds.
+[2018.04.04-18.49.31:125][546]LogSavePackage: Save=15.46ms
+[2018.04.04-18.49.31:125][546]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Default_Material_u1_v2321CC3D44E5637AAE2ADB6A0B601C32A.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v2.uasset'
+[2018.04.04-18.49.31:132][546]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v2.uasset
+[2018.04.04-18.49.31:155][546]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.04.04-18.49.31:155][546]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.04.04-18.49.31:155][546]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.04.04-18.49.31:155][546]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.04-18.49.31:155][546]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.04-18.49.40:582][354]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.40:721][354]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.40:781][354]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.40:869][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.04-18.49.43:252][566]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.43:534][584]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.43:593][584]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.49.46:539][854]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.46:607][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.49.49:939][115]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.50:003][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.04-18.49.50:948][193]LogMaterialEditor: Saving and Compiling material Default_Material_u1_v3
+[2018.04.04-18.49.51:522][193]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.51:626][193]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.51:711][193]LogMaterial: Missing cached shader map for material Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.51:801][193]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Default_Material_u1_v3, compiling. 
+[2018.04.04-18.49.57:952][193]TextureStreamingBuild: Display: Compiling optional shaders took 6.157 seconds.
+[2018.04.04-18.50.04:868][193]LogSavePackage: Save=13.48ms
+[2018.04.04-18.50.04:868][193]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Default_Material_u1_v38421E76D488269472ACBCF8F3B904730.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset'
+[2018.04.04-18.50.04:873][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset
+[2018.04.04-18.50.04:887][193]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.04.04-18.50.04:887][193]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.04.04-18.50.04:887][193]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.04.04-18.50.04:887][193]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.04-18.50.04:887][193]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.04-18.51.43:927][338]LogMaterialEditor: Saving and Compiling material Default_Material_u1_v3
+[2018.04.04-18.51.43:979][338]LogSavePackage: Save=3.93ms
+[2018.04.04-18.51.43:979][338]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Default_Material_u1_v3633D660944DBF2CC61736F89C3019D65.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset'
+[2018.04.04-18.51.43:981][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset
+[2018.04.04-18.52.21:988][866]LogMaterialEditor: Saving and Compiling material Default_Material_u1_v3
+[2018.04.04-18.52.22:044][866]LogSavePackage: Save=3.59ms
+[2018.04.04-18.52.22:045][866]LogSavePackage: Moving '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Saved/Default_Material_u1_v3345331444F16AC2EC33EF096373E6AD8.tmp' to '../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset'
+[2018.04.04-18.52.22:048][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alumno/Documents/GitHub/MasterUnreal/projectUnreal/Content/ThirdPersonBP/Meshes/Default_Material_u1_v3.uasset
+[2018.04.04-18.52.29:761][421]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.04.04-18.52.29:799][421]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2018.04.04-18.52.30:129][421]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
